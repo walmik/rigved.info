@@ -70,7 +70,7 @@ body {
 }
 
 .masthead-brand > a {
-  color: #333;
+  color: rgb(94, 94, 94);
 }
 
 .masthead-brand > a:hover {
@@ -272,4 +272,36 @@ video {
 
 em {
   color: #999;
+}
+
+ul {
+  list-style: none;
+}
+
+.portfolioItems {
+  margin-top: 60px;
+}
+
+.portfolioItems > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolioItems > ul > li {
+  margin: 3px;
+  margin-bottom: 30px;
+}
+
+.portfolioItems > ul > li img {
+  max-width: 180px;
+}
+
+.portfolioItem {
+  text-align: center;
+}
+
+.fullsize {
+  margin-bottom: 20px;
+  max-width: 700px;
 }

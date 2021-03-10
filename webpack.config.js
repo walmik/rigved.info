@@ -23,22 +23,6 @@ module.exports = {
           presets: ['@babel/env'],
         },
       },
-      {
-        test: /\.less$/,
-        exclude: /node_modules/,
-        use: [
-          { loader: 'style-loader' },
-          {
-            loader: 'postcss-loader',
-            options: { config: { path: './postcss.config.js' } },
-          },
-          { loader: 'less-loader' },
-        ],
-      },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
     ],
   },
 };
