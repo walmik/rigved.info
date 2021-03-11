@@ -5,7 +5,7 @@ import Data from './data';
 export default () => {
   const key = window.location.hash.replace('#/item/', '');
   return (
-    <div className="portfolioItem">
+    <div className="portfolioItem fade-in">
       <h2>{Data[key].title}</h2>
       <img className="fullsize" src={Data[key].media[0].path} />
       <p>

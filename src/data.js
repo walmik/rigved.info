@@ -183,29 +183,29 @@ export default {
       },
     ],
   },
-  succession: {
-    title: 'Succession',
-    poster: '/assets/img/thumbnails/succession.jpeg',
-    shortDescription: 'Some info about Bat comes here',
-    longDescription: 'Some more info about Bat comes here',
-    media: [
-      {
-        path: '/assets/img/fullsize/succession.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
-      },
-    ],
-  },
+  //   succession: {
+  //     title: 'Succession',
+  //     poster: '/assets/img/thumbnails/succession.jpeg',
+  //     shortDescription: 'Some info about Bat comes here',
+  //     longDescription: 'Some more info about Bat comes here',
+  //     media: [
+  //       {
+  //         path: '/assets/img/fullsize/succession.jpeg',
+  //         type: 'image',
+  //         title: 'This is the main image',
+  //       },
+  //       {
+  //         path: '/assets/img/a2.png',
+  //         type: 'image',
+  //         title: 'This is the second image',
+  //       },
+  //       {
+  //         path: 'https://youtube.com',
+  //         type: 'video',
+  //         title: 'This is the intro',
+  //       },
+  //     ],
+  //   },
   storyboard: {
     title: 'Storyboarding',
     poster: '/assets/img/thumbnails/storyboard.jpeg',

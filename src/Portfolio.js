@@ -17,7 +17,7 @@ export default () => {
     return arr;
   };
   return (
-    <main className="portfolioItems">
+    <main className="portfolioItems fadeIn">
       <ul>{getItems()}</ul>
     </main>
   );
