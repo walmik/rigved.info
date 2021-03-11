@@ -64,9 +64,12 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 6vw;
+  margin-top: 0px;
+  width: 125px;
+  height: 125px;
+  background-image: url(/assets/img/ri.png);
+  background-size: contain;
+  opacity: 0.3;
 }
 
 .masthead-brand > a {
