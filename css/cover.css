@@ -64,16 +64,12 @@ body {
  * Header
  */
 .masthead-brand {
-  margin-top: 0px;
-  width: 125px;
-  height: 125px;
-  background-image: url(/assets/img/ri.png);
-  background-size: contain;
-  opacity: 0.3;
+  margin-top: 10px;
 }
 
 .masthead-brand > a {
-  color: rgb(94, 94, 94);
+  color: rgb(80, 80, 80);
+  font-size: 5vh;
 }
 
 .masthead-brand > a:hover {
