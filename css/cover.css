@@ -254,6 +254,10 @@ body {
 }
 
 video {
+  width: 100%;
+}
+
+video.fullScreen {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -303,4 +307,8 @@ ul {
 .fullsize {
   margin-bottom: 20px;
   max-width: 700px;
+}
+
+.pageTitle {
+  margin: 30px;
 }

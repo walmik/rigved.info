@@ -6,19 +6,49 @@ export default {
     longDescription: 'Some more info about GATT comes here',
     media: [
       {
-        path: '/assets/img/fullsize/gatt.jpg',
+        path: 'https://www.youtube.com/embed/vozQcVjo1QI',
+        type: 'youtube',
+        title: 'This is the main video',
+      },
+      {
+        path: 'https://www.youtube.com/embed/0ESmRDQzvxA',
+        type: 'youtube',
+        title: 'This is the main video',
+      },
+      {
+        path: '/assets/img/fullsize/gatt1.jpeg',
         type: 'image',
         title: 'This is the main image',
       },
       {
-        path: '/assets/img/a2.png',
+        path: '/assets/img/fullsize/gatt2.jpeg',
         type: 'image',
-        title: 'This is the second image',
+        title: 'This is the main image',
       },
       {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
+        path: '/assets/img/fullsize/gatt3.jpeg',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      {
+        path: '/assets/img/fullsize/gatt4.jpeg',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      {
+        path: '/assets/img/fullsize/gatt5.jpeg',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      {
+        path: '/assets/img/fullsize/gatt6.jpeg',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      {
+        path: '/assets/img/fullsize/gatt7.jpeg',
+        type: 'image',
+        title: 'This is the main image',
       },
     ],
   },
@@ -29,19 +59,15 @@ export default {
     longDescription: 'Some more info about that comes here',
     media: [
       {
-        path: '/assets/img/fullsize/goat.jpg',
+        path: '/assets/img/fullsize/goat1.jpeg',
         type: 'image',
         title: 'This is the main image',
       },
       {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
+        path: '/assets/img/fullsize/goat-poly.mp4',
         type: 'video',
-        title: 'This is the intro',
+        poster: '/assets/img/fullsize/goat1.jpeg',
+        title: 'This is the main image',
       },
     ],
   },
@@ -52,19 +78,14 @@ export default {
     longDescription: 'Some more info about Bat comes here',
     media: [
       {
-        path: '/assets/img/fullsize/homeroom.jpg',
+        path: 'https://www.youtube.com/embed/Gidmwiqyw_4',
+        type: 'youtube',
+        title: 'This is the main video',
+      },
+      {
+        path: '/assets/img/fullsize/homeroom.jpeg',
         type: 'image',
         title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
       },
     ],
   },
@@ -75,19 +96,9 @@ export default {
     longDescription: 'Some more info about Bat comes here',
     media: [
       {
-        path: '/assets/img/fullsize/snake.jpg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
+        path: 'https://www.youtube.com/embed/U85fsaCBFrs',
+        type: 'youtube',
+        title: 'This is the main video',
       },
     ],
   },
@@ -98,19 +109,16 @@ export default {
     longDescription: 'Some more info about Bat comes here',
     media: [
       {
-        path: '/assets/img/fullsize/primitive.jpg',
-        type: 'image',
+        path: '/assets/img/fullsize/sentryassembly.mp4',
+        type: 'video',
+        poster: '/assets/img/fullsize/primitive.jpeg',
         title: 'This is the main image',
       },
       {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
+        path: '/assets/img/dancingrolls.mp4',
         type: 'video',
-        title: 'This is the intro',
+        poster: '/assets/img/dancingrolls.png',
+        title: 'This is the main image',
       },
     ],
   },
@@ -121,19 +129,9 @@ export default {
     longDescription: 'Some more info about Bat comes here',
     media: [
       {
-        path: '/assets/img/fullsize/suffering.jpg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
+        path: 'https://www.youtube.com/embed/XHXa1O5Ehkw',
+        type: 'youtube',
+        title: 'The evil is defeated when you are',
       },
     ],
   },
@@ -148,15 +146,18 @@ export default {
         type: 'image',
         title: 'This is the main image',
       },
+    ],
+  },
+  toaster: {
+    title: 'Toaster Over Pro',
+    poster: '/assets/img/thumbnails/toaster.jpg',
+    shortDescription: 'Some info about Toaster comes here',
+    longDescription: 'Some more info about Toaster comes here',
+    media: [
       {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
+        path: 'https://www.youtube.com/embed/2dNyrFH70pU',
+        type: 'youtube',
+        title: 'This is the main video',
       },
     ],
   },
@@ -167,45 +168,25 @@ export default {
     longDescription: 'Some more info about Bat comes here',
     media: [
       {
-        path: '/assets/img/fullsize/lizard.jpg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/a2.png',
-        type: 'image',
-        title: 'This is the second image',
-      },
-      {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
+        path: 'https://www.youtube.com/embed/fkZgTM3FCPo',
+        type: 'youtube',
+        title: 'This is the main video',
       },
     ],
   },
-  //   succession: {
-  //     title: 'Succession',
-  //     poster: '/assets/img/thumbnails/succession.jpeg',
-  //     shortDescription: 'Some info about Bat comes here',
-  //     longDescription: 'Some more info about Bat comes here',
-  //     media: [
-  //       {
-  //         path: '/assets/img/fullsize/succession.jpeg',
-  //         type: 'image',
-  //         title: 'This is the main image',
-  //       },
-  //       {
-  //         path: '/assets/img/a2.png',
-  //         type: 'image',
-  //         title: 'This is the second image',
-  //       },
-  //       {
-  //         path: 'https://youtube.com',
-  //         type: 'video',
-  //         title: 'This is the intro',
-  //       },
-  //     ],
-  //   },
+  succession: {
+    title: 'Succession',
+    poster: '/assets/img/thumbnails/succession.jpeg',
+    shortDescription: 'Some info about Bat comes here',
+    longDescription: 'Some more info about Bat comes here',
+    media: [
+      {
+        path: 'https://www.youtube.com/embed/ZbQ5wKfJilQ',
+        type: 'youtube',
+        title: 'This is the main video',
+      },
+    ],
+  },
   storyboard: {
     title: 'Storyboarding',
     poster: '/assets/img/thumbnails/storyboard.jpeg',
@@ -218,14 +199,14 @@ export default {
         title: 'This is the main image',
       },
       {
-        path: '/assets/img/a2.png',
+        path: '/assets/img/fullsize/figuredrawing1.jpeg',
         type: 'image',
-        title: 'This is the second image',
+        title: 'This is the main image',
       },
       {
-        path: 'https://youtube.com',
-        type: 'video',
-        title: 'This is the intro',
+        path: '/assets/img/fullsize/figuredrawing2.jpeg',
+        type: 'image',
+        title: 'This is the main image',
       },
     ],
   },
