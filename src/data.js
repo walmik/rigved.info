@@ -52,6 +52,39 @@ export default {
       },
     ],
   },
+  ceres: {
+    title: 'Ceres',
+    poster: '/assets/img/thumbnails/ceres.png',
+    shortDescription: 'Ceres',
+    longDescription: 'Some more info about that comes here',
+    media: [
+      {
+        path: '/assets/img/fullsize/ceres-turnaround.png',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      {
+        path: '/assets/img/fullsize/ceres-storyboard.png',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      {
+        path: '/assets/img/fullsize/ceres-staff.png',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      {
+        path: '/assets/img/fullsize/ceres-fur.png',
+        type: 'image',
+        title: 'This is the main image',
+      },
+      // {
+      //   path: '/assets/img/fullsize/ceres-playblast.mov',
+      //   type: 'video',
+      //   title: 'This is the main image',
+      // },
+    ],
+  },
   goat: {
     title: 'The G.O.A.T',
     poster: '/assets/img/thumbnails/goat.jpg',
