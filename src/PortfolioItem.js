@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+const gfm = require('remark-gfm');
 import { Link } from 'react-router-dom';
 import Data from './data';
 
@@ -32,10 +34,12 @@ export default () => {
       }
     });
 
+  const getMarkdown = () => <ReactMarkdown plugins={[gfm]}>{Data[key].markdown}</ReactMarkdown>;
+
   return (
     <div className="portfolioItem fade-in">
       <h2 className="pageTitle">{Data[key].title}</h2>
-      {getMedia()}
+      {Data[key].markdown ? getMarkdown() : getMedia()}
       <p>
         <Link to="/">Back</Link>
       </p>

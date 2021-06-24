@@ -301,7 +301,16 @@ ul {
 }
 
 .portfolioItem {
-  text-align: center;
+  text-align: left;
+}
+
+.portfolioItem img {
+  max-width: 100%;
+}
+
+.portfolioItem th,
+.portfolioItem td {
+  padding: 10px 10px 10px 0;
 }
 
 .fullsize {
@@ -310,5 +319,5 @@ ul {
 }
 
 .pageTitle {
-  margin: 30px;
+  margin: 30px 0;
 }
