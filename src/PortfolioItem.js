@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 const gfm = require('remark-gfm');
-import { Link } from 'react-router-dom';
 import Data from './data';
 
 export default () => {
@@ -34,15 +33,21 @@ export default () => {
       }
     });
 
-  const getMarkdown = () => <ReactMarkdown plugins={[gfm]}>{Data[key].markdown}</ReactMarkdown>;
+  const getMarkdown = () => {
+    return (
+      <>
+        <ReactMarkdown plugins={[gfm]}>{Data[key].markdown}</ReactMarkdown>
+      </>
+    );
+  };
 
   return (
     <div className="portfolioItem fade-in">
       <h2 className="pageTitle">{Data[key].title}</h2>
-      {Data[key].markdown ? getMarkdown() : getMedia()}
-      <p>
-        <Link to="/">Back</Link>
-      </p>
+      <blockquote>{Data[key].shortDescription}</blockquote>
+      <p>{Data[key].longDescription}</p>
+      {Data[key].media && getMedia()}
+      {Data[key].markdown && getMarkdown()}
     </div>
   );
 };

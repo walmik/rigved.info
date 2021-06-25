@@ -8,50 +8,50 @@ export default {
       'In order to create this massive animation project by myself I used the Unity engine to cut down on rendering costs, and coded tools that I could use to expedite my process. In addition to my screenwriter, I also worked with over ten voice actors, a musician, a motion capture technician, and a texture artist.',
     media: [
       {
-        path: 'https://www.youtube.com/embed/vozQcVjo1QI',
+        path: 'https://www.youtube.com/embed/UUz2ogeB-Tw',
         type: 'youtube',
         title: 'This is the main video',
       },
-      {
-        path: 'https://www.youtube.com/embed/0ESmRDQzvxA',
-        type: 'youtube',
-        title: 'This is the main video',
-      },
-      {
-        path: '/assets/img/fullsize/gatt1.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/gatt2.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/gatt3.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/gatt4.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/gatt5.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/gatt6.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/gatt7.jpeg',
-        type: 'image',
-        title: 'This is the main image',
-      },
+      // {
+      //   path: 'https://www.youtube.com/embed/0ESmRDQzvxA',
+      //   type: 'youtube',
+      //   title: 'This is the main video',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/gatt1.jpeg',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/gatt2.jpeg',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/gatt3.jpeg',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/gatt4.jpeg',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/gatt5.jpeg',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/gatt6.jpeg',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/gatt7.jpeg',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
     ],
     markdown: `
 ### Storyboard
@@ -73,8 +73,8 @@ This scene required one lead character, two supporting characters, and a host of
 
 I used Adobe Fuse to get a base human and clothing mesh for each character, and then brought them into Blender for sculpting, re-texturing and rigging. I used the concept art I had produced for Wake in an earlier episode to sculpt his body and face. 
 
-![Storyboard](/assets/img/portfolio/6-gatt-wake-hair.png)
-![Storyboard](/assets/img/portfolio/7-gatt-wake-1.png)
+![Character](/assets/img/portfolio/6-gatt-wake-hair.png)
+![Character](/assets/img/portfolio/7-gatt-wake-1.png)
 
 Unlike the supporting and background characters, I took the additional step of painting Wake’s textures by hand, since these were the textures that would get the most amount of screentime and could not get away with being generic. For Wake’s hair, I painted an alpha map using a Wacom tablet so that I could give the illusion of hundreds of hair strands with just a few intersecting planes.
 
@@ -97,46 +97,93 @@ I worked with a motion capture technician in the Carnegie Mellon mocap lab over 
 | 1:16      | Wake      | Throw a bottle to the right at someone below you.                |
 | 1:18      | Jimmy     | Quickly move aside to dodge a bottle thrown at you               |
 | x:xx      | Multiple  | Cheering, clapping, pumping fist, shouting, etc.                 |
+
+### Facial Animation
+![Animation](/assets/img/portfolio/8-gatt-face-capture.gif)
+
+Believable, high-quality facial capture does not have to require anything beyond a webcam and some tracking software. I painted over 46 blue dots on key points on my face (using blue eyeliner!) and recorded footage of myself performing every dialogue in the scene. I then brought this footage into Blender and tracked all the blue dots on my face. Finally, I wrote a script that would generate a facial rig with 46 bones corresponding to the dots on my face, and then lock the movements of those bones to the movements of the tracked dots. Once this animation was baked down into keyframes, it could be played in real-time and the process of retargeting this animation to other rigs with the same bone structure and hierarchy was straightforward. I suspect that with a higher quality video camera and a ring light, I could produce film quality facial capture using this technique. 
+
+### VFX
+My goal with the effects in this scene was to minimize attracting the viewer’s attention to them. I prefer subtle effects that contribute to the scene rather than over the top effects that distract from it. 
+![Animation](/assets/img/portfolio/9-gatt-bottle-shatter.gif)
+The main technical effects challenge was creating glass bottles that would fall, shatter, and could be thrown convincingly by my main character. After I had created a base bottle mesh, I used a cell fracture modifier in Blender to generate several glass shards from the bottle, and added mesh colliders to each shard. Once I brought both a fractured and an unfractured bottle asset into Unity, I wrote a script on the unfractured bottle that would replace itself with the fractured bottle upon collision, as well as add a force pointing away from the collision point on each shard. As for throwing the bottles, I wrote a script that used 3D kinematics to calculate the force and direction required for a bottle to land at a certain target, and applied an initial force accordingly. 
+Other tech challenges include the construction vehicle that lifts the portapotty, for which I created a trail renderer on the hook object, so it would look like it was suspended by a cable at all times. I also wrote inverse kinematics scripts for the hands and heads of all my characters, so they could convincingly interact with environment objects such as doors and bottles, as well as subtly orient their bodies so that they were looking at each other. 
+
+### Production
+In addition to design and animation, I am also the producer of GATT. I am in charge of coordinating up to 15 solo contributors at a time during production, all of which is done virtually. I make use of documents such as production schedules, voice acting schedules, asset lists and budgets to keep this production organized, and cherish the opportunity to be a leader that GATT provides me. 
+
 `,
   },
   ceres: {
     title: 'Ceres',
     poster: '/assets/img/thumbnails/ceres.png',
-    shortDescription: 'Ceres',
-    longDescription: 'Some more info about that comes here',
+    shortDescription:
+      'Ceres is a 3D animated short I created in collaboration with five classmates over the course of a semester.',
+    longDescription: ' I was responsible for modelling, texturing, grooming and animating our protagonist, Ceres.',
     media: [
       {
-        path: '/assets/img/fullsize/ceres-turnaround.png',
-        type: 'image',
-        title: 'This is the main image',
+        path: 'https://www.youtube.com/embed/GbIEhvdVtoE',
+        type: 'youtube',
+        title: 'This is the main video',
       },
-      {
-        path: '/assets/img/fullsize/ceres-storyboard.png',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/ceres-staff.png',
-        type: 'image',
-        title: 'This is the main image',
-      },
-      {
-        path: '/assets/img/fullsize/ceres-fur.png',
-        type: 'image',
-        title: 'This is the main image',
-      },
+      // {
+      //   path: '/assets/img/fullsize/ceres-turnaround.png',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/ceres-storyboard.png',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/ceres-staff.png',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
+      // {
+      //   path: '/assets/img/fullsize/ceres-fur.png',
+      //   type: 'image',
+      //   title: 'This is the main image',
+      // },
       // {
       //   path: '/assets/img/fullsize/ceres-playblast.mov',
       //   type: 'video',
       //   title: 'This is the main image',
       // },
     ],
+    markdown: `
+![Modelling](/assets/img/fullsize/ceres-turnaround.png)
+
+### Modelling
+![Modelling](/assets/img/portfolio/12-ceres-wireframe-back.png)
+While modelling Ceres I experimented with multiple triangle counts before settling around ~25k for the base body mesh. Our total budget for the character was around ~70k faces so this left me with plenty of room to make stylized hair, eyeballs, a staff, etc.
+
+### Texturing
+![Texturing](/assets/img/fullsize/ceres-staff.png)
+The art style we were going for was stylized realism, looking to sources like Kena: Bridge of Spirits and How To Train Your Dragon for reference. I found the best way to get this kind of look was to produce hand-painted textures on my Wacom tablet. This was a welcome change of pace from the more procedural tools we were using for the environment and let me revisit lighting and shading fundamentals.
+
+### Storyboarding
+![Texturing](/assets/img/fullsize/ceres-storyboard.png)
+When storyboarding this sequence, I had to keep track of several narrative ideas being contributed by my team members. I decided to go beyond the conventional linear panel-based storyboard format and instead create a two-dimensional storyboard with narrative phases. We would then go on to narrow down our choices in each phase to create a cohesive story.
+
+### Animation
+![Animation](/assets/img/portfolio/15-ceres-reference.png)
+For reference I recorded myself in my garage, moving with the characteristics and mannerisms I wanted Ceres to have. I walked on my tiptoes to emulate the way deer legs work and get a natural sense of balance. 
+<video playsinline autoPlay muted loop poster="/assets/img/portfolio/15-ceres-reference.png"><source src="/assets/img/portfolio/16-ceres-playblast.mov" type="video/mp4" /></video>
+
+### Groom
+![Fur](/assets/img/fullsize/ceres-fur.png)
+This project was my first time working with Alembic files. I used Blender to author a strand-based fur Alembic that I was then able to bring into Unreal Engine 4.26 using the new Groom plug-ins.
+
+`,
   },
   goat: {
     title: 'The G.O.A.T',
     poster: '/assets/img/thumbnails/goat.jpg',
-    shortDescription: 'The G.O.A.T (Passenger mount)',
-    longDescription: 'Some more info about that comes here',
+    shortDescription: 'Passenger mount',
+    longDescription:
+      'The G.O.A.T. is a creature I designed, modelled and textured for the Blizzard 2021 Student Art Contest.',
     media: [
       {
         path: '/assets/img/fullsize/goat1.jpeg',
@@ -151,11 +198,35 @@ I worked with a motion capture technician in the Carnegie Mellon mocap lab over 
       },
     ],
   },
+  snake: {
+    title: 'Snake v/s Baby',
+    poster: '/assets/img/thumbnails/snake.jpg',
+    shortDescription:
+      'Snake V/s Baby is a humorous animated short I created using some novel procedural animation techniques. ',
+    longDescription:
+      'Using code, the built-in physics system and a little trigonometry I was able to achieve unique results over a relatively short period of time. ',
+    media: [
+      {
+        path: 'https://www.youtube.com/embed/U85fsaCBFrs',
+        type: 'youtube',
+        title: 'This is the main video',
+      },
+    ],
+    markdown: `
+#### Snake Animation
+![Animation](/assets/img/portfolio/20-svb-snake.gif)
+
+#### Rigid body joint animation
+![Animation](/assets/img/portfolio/21-svb-baby.gif)
+`,
+  },
   homeroom: {
     title: 'Homeroom',
     poster: '/assets/img/thumbnails/homeroom.jpg',
-    shortDescription: 'Some info about Bat comes here',
-    longDescription: 'Some more info about Bat comes here',
+    shortDescription:
+      'Homeroom is a 4-player cooperative puzzle game that I did game design, animation and client-side programming for. ',
+    longDescription:
+      'My design channels the frustrations and anxiety of being an immigrant in the United States into a fun, collaborative experience.',
     media: [
       {
         path: 'https://www.youtube.com/embed/Gidmwiqyw_4',
@@ -163,22 +234,19 @@ I worked with a motion capture technician in the Carnegie Mellon mocap lab over 
         title: 'This is the main video',
       },
       {
-        path: '/assets/img/fullsize/homeroom.jpeg',
+        path: '/assets/img/portfolio/22-homeroom-backpack.gif',
         type: 'image',
-        title: 'This is the main image',
+        title: 'homeroom',
       },
-    ],
-  },
-  snake: {
-    title: 'Snake v/s Baby',
-    poster: '/assets/img/thumbnails/snake.jpg',
-    shortDescription: 'Some info about Bat comes here',
-    longDescription: 'Some more info about Bat comes here',
-    media: [
       {
-        path: 'https://www.youtube.com/embed/U85fsaCBFrs',
-        type: 'youtube',
-        title: 'This is the main video',
+        path: '/assets/img/portfolio/22-homeroom-desk.gif',
+        type: 'image',
+        title: 'homeroom',
+      },
+      {
+        path: '/assets/img/portfolio/22-homeroom-door.gif',
+        type: 'image',
+        title: 'homeroom',
       },
     ],
   },
@@ -231,15 +299,33 @@ I worked with a motion capture technician in the Carnegie Mellon mocap lab over 
   toaster: {
     title: 'Toaster Over Pro',
     poster: '/assets/img/thumbnails/toaster.jpg',
-    shortDescription: 'Some info about Toaster comes here',
-    longDescription: 'Some more info about Toaster comes here',
+    shortDescription:
+      'Toaster Oven Pro is a short game where you get to be in a kitchen all by yourself and put anything you find into a toaster oven.',
+    longDescription:
+      'Toaster Oven Pro was created with the Unity engine and is built as a prototype for a VR experience I am interested in making. The goal was to make every object in the game "toastable". A playable demo is available on itch.io',
     media: [
       {
         path: 'https://www.youtube.com/embed/2dNyrFH70pU',
         type: 'youtube',
         title: 'This is the main video',
       },
+      {
+        path: '/assets/img/portfolio/23-top-cookies.png',
+        type: 'image',
+        title: 'toaster oven pro',
+      },
+      {
+        path: '/assets/img/portfolio/23-top-fridge.png',
+        type: 'image',
+        title: 'toaster oven pro',
+      },
+      {
+        path: '/assets/img/portfolio/23-top-oven.png',
+        type: 'image',
+        title: 'toaster oven pro',
+      },
     ],
+    markdown: `This is the perfect game for people who have always wanted to use a toaster oven without adult supervision`,
   },
   // lizard: {
   //   title: 'Lizard on a train',
