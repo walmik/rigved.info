@@ -8,7 +8,7 @@ export default {
       'In order to create this massive animation project by myself I used the Unity engine to cut down on rendering costs, and coded tools that I could use to expedite my process. In addition to my screenwriter, I also worked with over ten voice actors, a musician, a motion capture technician, and a texture artist.',
     media: [
       {
-        path: 'https://www.youtube.com/embed/UUz2ogeB-Tw',
+        path: 'https://www.youtube.com/embed/psK-yVmJQms',
         type: 'youtube',
         title: 'This is the main video',
       },
