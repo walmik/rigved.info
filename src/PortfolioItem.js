@@ -6,14 +6,14 @@ import Data from './data';
 export default () => {
   const key = window.location.hash.replace('#/item/', '');
   const getMedia = () =>
-    Data[key].media.map((m) => {
+    Data[key].media.map((m, i) => {
       if (m.type === 'image') {
-        return <img className="fullsize" src={m.path} />;
+        return <img key={m.path || i} className="fullsize" src={m.path} />;
       }
 
       if (m.type === 'video') {
         return (
-          <video playsinline autoPlay muted loop poster={m.poster}>
+          <video key={m.path || i} playsInline autoPlay muted loop poster={m.poster}>
             <source src={m.path} type="video/mp4" />
           </video>
         );
@@ -28,6 +28,7 @@ export default () => {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
+            key={m.path || i}
           ></iframe>
         );
       }
