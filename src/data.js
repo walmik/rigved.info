@@ -239,7 +239,7 @@ Work exhibited as part of Federico Solmi's installations at:
     shortDescription:
       'Developed AI-powered texture generation pipeline using Stable Diffusion LoRA training, achieving 4K resolution output while maintaining hand-painted aesthetic.',
     longDescription:
-      'Revolutionized Federico Solmi Studio\'s texture production workflow by training custom LoRA models for Stable Diffusion, enabling rapid generation of 4K hand-painted-style textures. This innovation maintained the studio\'s distinctive aesthetic while dramatically accelerating production timelines.',
+      "Revolutionized Federico Solmi Studio's texture production workflow by training custom LoRA models for Stable Diffusion, enabling rapid generation of 4K hand-painted-style textures. This innovation maintained the studio's distinctive aesthetic while dramatically accelerating production timelines.",
     media: [
       {
         path: 'https://www.youtube.com/embed/psK-yVmJQms',
@@ -338,9 +338,9 @@ This project demonstrated that AI/ML tools can enhance traditional art workflows
     featured: false,
     order: 4,
     shortDescription:
-      'Developed Python GUI tools integrating Microsoft\'s TRELLIS 3D generation model into production pipeline, enabling procedural multi-modal asset creation.',
+      "Developed Python GUI tools integrating Microsoft's TRELLIS 3D generation model into production pipeline, enabling procedural multi-modal asset creation.",
     longDescription:
-      'Integrated cutting-edge AI 3D generation technology into Federico Solmi Studio\'s production pipeline, creating user-friendly tools that democratized access to procedural asset generation for non-technical artists.',
+      "Integrated cutting-edge AI 3D generation technology into Federico Solmi Studio's production pipeline, creating user-friendly tools that democratized access to procedural asset generation for non-technical artists.",
     media: [
       {
         path: 'https://www.youtube.com/embed/psK-yVmJQms',
@@ -600,9 +600,9 @@ Developed augmented reality experiences that blend physical gallery installation
     featured: false,
     order: 6,
     shortDescription:
-      'Published book featuring Federico Solmi\'s satirical multimedia art. Contributed 3D character work and technical art for the publication.',
+      "Published book featuring Federico Solmi's satirical multimedia art. Contributed 3D character work and technical art for the publication.",
     longDescription:
-      'Ship of Fools is a published book showcasing Federico Solmi\'s satirical multimedia artwork critiquing power and political absurdity. I contributed 3D character modeling, texturing, and technical art direction for the book\'s imagery.',
+      "Ship of Fools is a published book showcasing Federico Solmi's satirical multimedia artwork critiquing power and political absurdity. I contributed 3D character modeling, texturing, and technical art direction for the book's imagery.",
     media: [
       {
         path: '/assets/img/federico-solmi/shipoffools-cover.jpg',
@@ -682,9 +682,9 @@ This book represents a significant milestone in making his multimedia installati
     featured: false,
     order: 7,
     shortDescription:
-      'Published book exploring digital art and the metaverse through Federico Solmi\'s work. Contributed NFT character art and 3D technical production.',
+      "Published book exploring digital art and the metaverse through Federico Solmi's work. Contributed NFT character art and 3D technical production.",
     longDescription:
-      'Escape Into The Metaverse is a published book exploring Federico Solmi\'s venture into digital art, NFTs, and virtual worlds. I contributed character modeling, NFT artwork, and technical production for the book\'s visual content.',
+      "Escape Into The Metaverse is a published book exploring Federico Solmi's venture into digital art, NFTs, and virtual worlds. I contributed character modeling, NFT artwork, and technical production for the book's visual content.",
     media: [
       {
         path: '/assets/img/federico-solmi/escapemetaverse-cover.jpg',
@@ -1063,6 +1063,108 @@ Other tech challenges include the construction vehicle that lifts the portapotty
 ### Production
 In addition to design and animation, I am also the producer of GATT. I am in charge of coordinating up to 15 solo contributors at a time during production, all of which is done virtually. I make use of documents such as production schedules, voice acting schedules, asset lists and budgets to keep this production organized, and cherish the opportunity to be a leader that GATT provides me. 
 
+`,
+  },
+  heartsgrowfonder: {
+    title: 'Hearts Grow Fonder',
+    poster: '/assets/img/thumbnails/heartsgrowfonder.jpg',
+    category: 'personal',
+    client: 'R1G Studios',
+    year: 2018,
+    dateRange: 'May 2018',
+    tags: ['Short Film', 'Animation', '3D', 'Director', 'Character Animation', 'Storytelling'],
+    featured: true,
+    order: 4,
+    shortDescription:
+      'A thought-provoking, sensitive 3D animated short film about growing up, dealing with distance, and being apart from the people we love. Created during my time at Carnegie Mellon University.',
+    longDescription:
+      'Hearts Grow Fonder is a deeply personal animated film that explores the emotional complexities of separation and distance. Using a distinctive stylized aesthetic with boxy, Minecraft-inspired characters, the film tells a universal story about human connection and the bittersweet nature of growing up. The minimalist character design allows the animation and storytelling to carry the emotional weight, proving that compelling narratives transcend visual realism.',
+    media: [
+      {
+        path: 'https://www.youtube.com/embed/-eOnZ3n1EFg',
+        type: 'youtube',
+        title: 'Hearts Grow Fonder - Full Film',
+      },
+    ],
+    markdown: `
+## About the Film
+
+**Hearts Grow Fonder** is a 3D animated short film that explores the emotional landscape of growing up and dealing with physical separation from loved ones. Created in May 2018, the film uses a distinctive visual style featuring boxy, geometric characters reminiscent of Minecraft aesthetics to tell a deeply human story.
+
+---
+
+## Creative Vision
+
+The film's power lies in its ability to evoke complex emotions through simple, stylized characters. Rather than pursuing photorealism, the minimalist character design creates a universal quality—these characters could be anyone, anywhere, experiencing the universal pain of distance and longing.
+
+**Themes:**
+- Growing up and emotional maturity
+- Physical distance and emotional connection
+- The bittersweet nature of relationships
+- How absence shapes our understanding of love
+
+---
+
+## My Role
+
+As the **director, animator, and storyteller** for this project, I was responsible for:
+
+### Direction & Story
+- Developed the narrative from concept to completion
+- Crafted the emotional arc and pacing
+- Made all creative decisions regarding tone and visual style
+
+### Character Animation
+- Animated all character performances
+- Used limited character rigs to create emotionally resonant performances
+- Focused on body language and timing to convey emotion
+
+### Visual Design
+- Created the distinctive boxy character aesthetic
+- Designed environments and props
+- Established the film's minimalist visual language
+
+### Production
+- Solo production with the exception of music composition
+- Managed entire pipeline from pre-production to final delivery
+- Collaborated with musician for original score
+
+---
+
+## Technical Approach
+
+**Software & Tools:**
+- **Animation & Modeling**: Blender
+- **Rendering**: Blender
+- **Compositing**: Adobe After Effects
+- **Music**: Original composition by collaborator
+
+**Character Design Philosophy:**
+The boxy, geometric character design was a deliberate artistic choice that serves multiple purposes:
+- **Accessibility**: Simpler rigs allow for faster animation iteration
+- **Universality**: Abstract characters represent everyone and no one specifically
+- **Emotional Focus**: Forces viewer attention on performance and story rather than visual detail
+- **Technical Efficiency**: Allows solo animator to complete ambitious project
+
+---
+
+## Production Timeline
+
+**Duration**: Approximately 4 months (Spring 2018)
+**Created**: May 2018 at Carnegie Mellon University
+**Team**: Solo (story, animation, direction) + 1 musician (original score)
+**Film Length**: ~3 minutes
+
+---
+
+## Technical Skills Demonstrated
+
+- **Character Animation**: Expressive performances with limited rigs
+- **Storytelling**: Visual narrative without relying on dialogue
+- **Direction**: Cohesive artistic vision from concept to completion
+- **Production Management**: Solo project coordination and delivery
+- **Artistic Restraint**: Knowing when less is more
+- **Emotional Timing**: Pacing and rhythm that serves the story
 `,
   },
   ceres: {
