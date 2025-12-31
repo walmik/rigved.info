@@ -21,15 +21,14 @@ export default () => {
 
       if (m.type === 'youtube') {
         return (
-          <iframe
-            width="700"
-            height="394"
-            src={m.path}
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            key={m.path || i}
-          ></iframe>
+          <div className="video-wrapper" key={m.path || i}>
+            <iframe
+              src={m.path}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         );
       }
     });
