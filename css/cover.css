@@ -4,6 +4,26 @@
  * Globals
  */
 
+/* Typography */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6,
+.masthead-brand,
+.cover-heading,
+.btn,
+.filter-btn,
+.featured-title,
+.portfolio-section-title,
+.item-title,
+.featured-card-title {
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
 /* Links */
 a,
 a:focus,
@@ -34,6 +54,8 @@ body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
