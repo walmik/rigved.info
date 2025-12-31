@@ -593,9 +593,17 @@ ul {
 /* Portfolio Item Detail Page */
 .portfolioItem {
   text-align: left;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+}
+
+/* For ultra-wide monitors (1440p+), use even wider layout */
+@media (min-width: 1600px) {
+  .portfolioItem {
+    max-width: 1400px;
+    padding: 60px 40px;
+  }
 }
 
 /* Back Button */
