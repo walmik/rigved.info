@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-const gfm = require('remark-gfm');
+import remarkGfm from 'remark-gfm';
+import { useParams } from 'react-router-dom';
 import Data from './data';
 
-export default () => {
-  const key = window.location.hash.replace('#/item/', '');
+export default function PortfolioItem() {
+  const { id } = useParams();
+  const key = id || window.location.hash.replace('#/item/', '');
   const getMedia = () =>
     Data[key].media.map((m, i) => {
       if (m.type === 'image') {
@@ -36,7 +38,7 @@ export default () => {
   const getMarkdown = () => {
     return (
       <>
-        <ReactMarkdown plugins={[gfm]}>{Data[key].markdown}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{Data[key].markdown}</ReactMarkdown>
       </>
     );
   };
@@ -50,4 +52,4 @@ export default () => {
       {Data[key].markdown && getMarkdown()}
     </div>
   );
-};
+}
