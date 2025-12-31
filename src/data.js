@@ -2,6 +2,13 @@ export default {
   gatt: {
     title: 'GATT',
     poster: '/assets/img/thumbnails/gatt.jpg',
+    category: 'personal',
+    client: 'R1G Studios',
+    year: 2021,
+    dateRange: '2020-2021',
+    tags: ['Animation', '3D', 'Unity', 'Series', 'Original IP'],
+    featured: true,
+    order: 3,
     shortDescription:
       'GATT is an original 3D animated science fiction series I am creating in partnership with a screenwriter. On Jan 1, 2021 We released S.T.A.R., a 28-minute long pilot episode, on Youtube as well as a few small film festivals. In June 2021 I released a scene from the second episode of GATT, featuring significant improvements in my animation and production workflow from the previous episode.',
     longDescription:
@@ -117,6 +124,13 @@ In addition to design and animation, I am also the producer of GATT. I am in cha
   ceres: {
     title: 'Ceres',
     poster: '/assets/img/thumbnails/ceres.png',
+    category: 'student',
+    client: 'Carnegie Mellon University',
+    year: 2020,
+    dateRange: '2020',
+    tags: ['Animation', '3D', 'Unreal Engine', 'Character', 'Modeling'],
+    featured: false,
+    order: 6,
     shortDescription:
       'Ceres is a 3D animated short I created in collaboration with five classmates over the course of a semester.',
     longDescription: ' I was responsible for modelling, texturing, grooming and animating our protagonist, Ceres.',
@@ -181,6 +195,13 @@ This project was my first time working with Alembic files. I used Blender to aut
   goat: {
     title: 'The G.O.A.T',
     poster: '/assets/img/thumbnails/goat.jpg',
+    category: 'student',
+    client: 'Carnegie Mellon University',
+    year: 2019,
+    dateRange: '2019',
+    tags: ['3D', 'Character', 'Modeling', 'Texturing', 'Blizzard'],
+    featured: false,
+    order: 7,
     shortDescription: 'Passenger mount',
     longDescription:
       'The G.O.A.T. is a creature I designed, modelled and textured for the Blizzard 2021 Student Art Contest.',
@@ -201,6 +222,13 @@ This project was my first time working with Alembic files. I used Blender to aut
   snake: {
     title: 'Snake v/s Baby',
     poster: '/assets/img/thumbnails/snake.jpg',
+    category: 'student',
+    client: 'Carnegie Mellon University',
+    year: 2020,
+    dateRange: '2020',
+    tags: ['Animation', 'Procedural', 'Unity', 'Technical Art', 'VFX'],
+    featured: false,
+    order: 8,
     shortDescription:
       'Snake V/s Baby is a humorous animated short I created using some novel procedural animation techniques. ',
     longDescription:
@@ -223,6 +251,13 @@ This project was my first time working with Alembic files. I used Blender to aut
   homeroom: {
     title: 'Homeroom',
     poster: '/assets/img/thumbnails/homeroom.jpg',
+    category: 'student',
+    client: 'Carnegie Mellon University',
+    year: 2020,
+    dateRange: '2020',
+    tags: ['Game Design', 'Unity', 'Multiplayer', 'Animation', 'Programming'],
+    featured: false,
+    order: 9,
     shortDescription:
       'Homeroom is a 4-player cooperative puzzle game that I did game design, animation and client-side programming for. ',
     longDescription:
@@ -297,8 +332,15 @@ This project was my first time working with Alembic files. I used Blender to aut
   //   ],
   // },
   toaster: {
-    title: 'Toaster Over Pro',
+    title: 'Toaster Oven Pro',
     poster: '/assets/img/thumbnails/toaster.jpg',
+    category: 'student',
+    client: 'Carnegie Mellon University',
+    year: 2020,
+    dateRange: '2020',
+    tags: ['Game Design', 'Unity', 'VR', 'Programming'],
+    featured: false,
+    order: 10,
     shortDescription:
       'Toaster Oven Pro is a short game where you get to be in a kitchen all by yourself and put anything you find into a toaster oven.',
     longDescription:
