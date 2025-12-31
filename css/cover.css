@@ -373,6 +373,13 @@ ul {
   transform: translateY(-5px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   border-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+
+.featured-card:hover .featured-card-title,
+.featured-card:hover .featured-client,
+.featured-card:hover .featured-description {
+  text-decoration: none;
 }
 
 .featured-image-wrapper {
@@ -483,6 +490,12 @@ ul {
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+.portfolio-item-card > a:hover .item-title,
+.portfolio-item-card > a:hover .item-client {
+  text-decoration: none;
 }
 
 .thumbnail-wrapper {
