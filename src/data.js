@@ -1,4 +1,246 @@
 export default {
+  blizzard: {
+    title: 'Blizzard Entertainment',
+    poster: '/assets/img/blizzard/thumbnail.jpg',
+    category: 'professional',
+    client: 'Activision Blizzard',
+    year: 2025,
+    dateRange: 'Jan 2023 - Dec 2025',
+    tags: ['Pipeline Tools', 'Python', 'Qt', 'Technical Art', 'Maya', 'Diablo'],
+    featured: true,
+    order: 1,
+    shortDescription:
+      'Pipeline Technical Artist at Activision Blizzard, developing Python/Qt tools for a 400+ person art department across multiple Diablo titles.',
+    longDescription:
+      "I worked as a Pipeline Technical Artist at Activision Blizzard, one of the world's largest video game publishers known for genre-defining franchises like World of Warcraft, Overwatch, and Diablo. During my tenure, I developed Python/Qt pipeline tools that streamlined workflows for a 400+ headcount art department and outsource vendors, maintaining production stability even as the studio underwent Microsoft's $69 billion acquisition of Activision Blizzard in 2023.",
+    media: [
+      {
+        path: '/assets/img/blizzard/diablo-iv-logo.png',
+        type: 'image',
+        title: 'Diablo IV',
+      },
+      {
+        path: '/assets/img/blizzard/vessel-of-hatred-logo.png',
+        type: 'image',
+        title: 'Diablo IV - Vessel of Hatred',
+      },
+      {
+        path: '/assets/img/blizzard/diablo-ii-resurrected-logo.png',
+        type: 'image',
+        title: 'Diablo II Resurrected',
+      },
+    ],
+    markdown: `
+## Shipped Titles
+
+### Diablo IV
+- **2023 Base Release** - Contributed to the base game launch
+- **10+ Seasons of Live Content** - Ongoing seasonal content development
+- **Vessel of Hatred Expansion** (2024) - Major expansion release
+
+### Diablo II Resurrected
+- Contributed to the remaster of the classic action RPG
+
+---
+
+## Pipeline Tools Developed
+
+During my time at Blizzard, I developed and maintained several critical pipeline tools that improved efficiency and quality across the art department:
+
+### Scene Healer
+Automated validation and repair system for 3D working files. Runs a comprehensive suite of checks for common issues in Maya scenes and automatically fixes them before export to the game engine. This tool significantly reduced technical issues and saved countless hours of manual troubleshooting.
+
+### Gameready Updater
+Automated rigging and skinning system for static meshes. This tool streamlined the process of applying skin weights and rigging to game-ready assets, ensuring consistency and reducing manual labor for technical artists.
+
+### World Mapper
+Automated world map assembly system for Diablo IV. This tool runs nightly builds that assemble the complete in-game world map using the latest geometry caches and UI art overlays, ensuring the map stays synchronized with level design updates.
+
+### Asset Manager
+Centralized asset management system that serves working files, asset elements, and exports directly to artists' work areas. This tool improved asset organization and version control across the entire art team.
+
+### Jewelrydoer
+Specialized tool for automatically fitting and skinning various jewelry pieces to character models. This tool handled the complex deformations required for realistic jewelry rendering in the game.
+
+### Furtuoso
+Maya plugin featuring 3D brush-based texture painting for producing comb maps in hair and fur shading. This innovative tool gave artists intuitive control over hair direction and styling directly in the 3D viewport.
+
+### Playblast264
+Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. This tool optimized the animation review process by generating high-quality, small file size preview videos that could be quickly uploaded and reviewed.
+
+---
+
+## Impact & Scale
+
+- **Team Size:** 400+ person art department plus outsource vendors
+- **Tools Usage:** Daily usage by entire art team across multiple projects
+- **Production Context:** Maintained critical tools during Microsoft's $69 billion acquisition (largest gaming acquisition in history)
+- **Platforms:** Tools developed for multi-platform AAA game development (PC, PlayStation, Xbox)
+- **Languages & Technologies:** Python, Qt/PySide, Maya API, Shotgrid API
+
+---
+
+## Technical Achievements
+
+- Designed tools with scalability in mind to support hundreds of concurrent users
+- Implemented robust error handling and logging systems for enterprise-level reliability
+- Created user-friendly interfaces that reduced training time for new team members
+- Maintained backwards compatibility during major studio transitions
+- Collaborated with engineering teams to integrate tools with proprietary game engines
+`,
+  },
+  federicosolmi: {
+    title: 'Federico Solmi Studio',
+    poster: '/assets/img/federico-solmi/thumbnail.jpg',
+    category: 'professional',
+    client: 'Federico Solmi',
+    year: 2022,
+    dateRange: 'Jun 2021 - Dec 2022',
+    tags: ['AI/ML', 'Technical Art', 'NFT', 'Stable Diffusion', 'Unity', 'Blender', 'VRChat'],
+    featured: true,
+    order: 2,
+    shortDescription:
+      '3D Technical Artist for Federico Solmi, a Guggenheim Fellow and internationally exhibited multimedia artist. Developed AI-powered texture generation pipelines and multi-modal 3D asset workflows.',
+    longDescription:
+      'I worked as a 3D Technical Artist for Federico Solmi, a Guggenheim Fellow and internationally exhibited multimedia artist known for satirical video installations critiquing power and political absurdity. His work has been featured at major institutions including the Venice Biennale, Smithsonian National Portrait Gallery, the Phillips Collection, and the Block Museum of Art.',
+    media: [
+      {
+        path: '/assets/img/federico-solmi/nft-elon-kim.jpg',
+        type: 'image',
+        title: 'The Painter and the Model - Elon Musk & Kim Kardashian',
+      },
+      {
+        path: '/assets/img/federico-solmi/nft-kim-runway.jpg',
+        type: 'image',
+        title: 'The Runway Model - Kim Kardashian',
+      },
+      {
+        path: '/assets/img/federico-solmi/nft-buffett.jpg',
+        type: 'image',
+        title: 'The Mechanical Magnate - Warren Buffett',
+      },
+      {
+        path: '/assets/img/federico-solmi/nft-vitalik.jpg',
+        type: 'image',
+        title: 'The Equestrian - Vitalik Buterin',
+      },
+    ],
+    markdown: `
+## AI Texture Generation Pipeline
+
+Federico's studio has a tradition of painting texture maps for 3D assets by hand, using acrylic colors on 11x17in sheets, before scanning them for use in texture mapping. I revolutionized this workflow by training a **Low Rank Adaptation Matrix (LoRA)** using an image dataset composed of the best quality textures produced by his studio.
+
+### Technical Implementation
+
+- **Trained custom LoRA** for Stable Diffusion model
+- **Dataset curation** from studio's archive of hand-painted textures
+- **Caption engineering** to teach the model studio-specific artistic concepts
+- **4K resolution output** matching professional texture requirements
+
+### Results
+
+By utilizing this LoRA, I was able to generate **final render quality texture maps at 4K resolution** using only the UV layouts and base material assignments from Blender. This dramatically accelerated the texture production pipeline while maintaining the distinctive hand-painted aesthetic that defines Federico's work.
+
+### Shader Development
+
+I built a **custom Unity shader** which accepts a 2D Texture Array as its albedo map, and cycles through columns of the map to create a flickering texture effect. This added a subtle, organic variation to painted textures that enhanced the visual richness of the final renders.
+
+---
+
+## Multi-Modal 3D Asset Generation
+
+In addition to traditional mesh authoring techniques, I integrated **TRELLIS** (Microsoft's open-weights 3D asset generation model) into the production pipeline to generate mesh assets procedurally.
+
+### GUI Tool Development
+
+Created a **Python-based GUI tool** for the studio team to utilize this workflow:
+
+- **2D to 3D conversion:** Send reference images to locally running TRELLIS server
+- **Automated export:** Save generated meshes to GLB files
+- **Blender integration:** One-click import scripts for seamless workflow
+- **Template system:** Pre-configured Blender scenes for common asset types
+
+This tool democratized access to cutting-edge AI 3D generation, allowing artists without technical backgrounds to leverage this technology.
+
+---
+
+## NFT Projects
+
+Contributed 3D art and technical implementation for several NFT artworks featuring satirical portrayals of tech industry figures:
+
+### The Painter and the Model
+Features Elon Musk painting a portrait of Kim Kardashian in an absurdist tableau.
+
+### The Runway Model
+Features Kim Kardashian walking a futuristic runway as a fashion model.
+
+### The Mechanical Magnate
+Features Warren Buffett riding a mechanical bull, commenting on the volatility of markets.
+
+### The Equestrian
+Features Vitalik Buterin rising from a pool atop the Trojan horse from The Iliad, referencing cryptocurrency's disruptive nature.
+
+---
+
+## Character Design & Implementation
+
+Created detailed 3D character models of tech industry figures, each portrayed in historical or fictional contexts:
+
+### Elon Musk
+Portrayed as the medieval warrior **Siegfried from Der Niebelungen**, combining mythological heroism with contemporary tech culture.
+
+### Vitalik Buterin
+Portrayed as the **Tin Man from Wizard of Oz**, exploring themes of searching for humanity in technological spaces.
+
+### Kim Kardashian
+Portrayed as the **robotic woman from Fritz Lang's Metropolis**, examining the intersection of celebrity, technology, and artificiality.
+
+### Mark Zuckerberg
+Portrayed as a **youthful archer dressed in Renaissance-era French nobility attire**, evoking both youth and power.
+
+---
+
+## Published Works
+
+### Ship of Fools
+Contributed 3D artwork to this published book exploring themes of power and folly.
+
+### Escape Into The Metaverse
+Created assets for this book examining virtual worlds and digital escapism.
+
+---
+
+## Augmented Reality
+
+### The Bacchanalian Ones
+Developed AR experiences that blend physical and digital art installations.
+
+---
+
+## VRChat Optimization
+
+### The Brotherhood - Quest Port
+
+Ported "The Brotherhood" experience from desktop to Quest platform, requiring significant technical optimization:
+
+- **Shader optimization:** Adapted complex shaders for mobile VR constraints
+- **Texture compression:** Reduced texture memory footprint while maintaining visual quality
+- **512MB budget:** Achieved strict VRChat Quest platform limits
+- **Performance optimization:** Maintained 72fps on mobile hardware
+
+---
+
+## Technical Skills Demonstrated
+
+- **AI/ML:** LoRA training, Stable Diffusion, prompt engineering
+- **3D Generation:** TRELLIS integration, procedural asset creation
+- **Pipeline Development:** Python, GUI tools, automation
+- **3D Modeling:** Character design, hard surface, organic modeling
+- **Shader Programming:** Unity shader development, custom effects
+- **VR Optimization:** Quest platform, mobile VR constraints
+- **Tools:** Blender, Unity, Stable Diffusion, Python, VRChat SDK
+`,
+  },
   gatt: {
     title: 'GATT',
     poster: '/assets/img/thumbnails/gatt.jpg',
