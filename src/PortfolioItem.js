@@ -11,14 +11,22 @@ export default function PortfolioItem() {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
 
-  // Close lightbox on ESC key
+  // Keyboard navigation for lightbox
   useEffect(() => {
-    const handleEsc = (e) => {
-      if (e.key === 'Escape') setLightboxOpen(false);
+    const handleKeyboard = (e) => {
+      if (!lightboxOpen) return;
+
+      if (e.key === 'Escape') {
+        setLightboxOpen(false);
+      } else if (e.key === 'ArrowLeft') {
+        goToPrev();
+      } else if (e.key === 'ArrowRight') {
+        goToNext();
+      }
     };
-    window.addEventListener('keydown', handleEsc);
-    return () => window.removeEventListener('keydown', handleEsc);
-  }, []);
+    window.addEventListener('keydown', handleKeyboard);
+    return () => window.removeEventListener('keydown', handleKeyboard);
+  }, [lightboxOpen, currentMediaIndex]);
 
   // Prevent body scroll when lightbox is open
   useEffect(() => {
