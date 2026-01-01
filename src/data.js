@@ -673,6 +673,16 @@ This project demonstrated that AI/ML tools can enhance traditional art workflows
         type: 'image',
         title: 'The Bacchanalian Ones FLR',
       },
+      {
+        path: '/assets/img/federico-solmi/vr-ar/vr-headset-mask1.jpg',
+        type: 'image',
+        title: 'VR Headset Mask 1',
+      },
+      {
+        path: '/assets/img/federico-solmi/vr-ar/vr-headset-mask2.jpg',
+        type: 'image',
+        title: 'VR Headset Mask 2',
+      },
     ],
     technicalApproach:
       'Ported "The Brotherhood" VRChat experience from desktop to Meta Quest mobile VR, achieving 75% size reduction (2GB to 512MB) while maintaining 72fps performance. Implemented aggressive texture compression using ASTC, intelligent resolution downscaling, polygon reduction with multi-level LOD chains, and shader optimization converting HDRP to mobile-compatible shaders. Developed AR installations using Unity AR Foundation with image target recognition, content overlay synchronized with physical artwork, and multi-user support for gallery exhibitions.',
@@ -1218,7 +1228,7 @@ The success of this hybrid AI + traditional art workflow has influenced future G
       {
         path: 'https://www.youtube.com/embed/psK-yVmJQms',
         type: 'youtube',
-        title: 'This is the main video',
+        title: 'GATT - S.T.A.R. (Episode 1)',
       },
       // {
       //   path: 'https://www.youtube.com/embed/0ESmRDQzvxA',
@@ -1525,15 +1535,15 @@ This project was my first time working with Alembic files. I used Blender to aut
       'The G.O.A.T. is a creature I designed, modelled and textured for the Blizzard 2021 Student Art Contest.',
     media: [
       {
-        path: '/assets/img/fullsize/goat1.jpeg',
+        path: '/assets/img/fullsize/goat-front.jpg',
         type: 'image',
-        title: 'This is the main image',
+        title: 'G.O.A.T Front View',
       },
       {
         path: '/assets/img/fullsize/goat-poly.mp4',
         type: 'video',
-        poster: '/assets/img/fullsize/goat1.jpeg',
-        title: 'This is the main image',
+        poster: '/assets/img/fullsize/goat-side.jpg',
+        title: 'G.O.A.T. Side View',
       },
     ],
   },
