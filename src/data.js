@@ -1226,6 +1226,11 @@ The success of this hybrid AI + traditional art workflow has influenced future G
       'In order to create this massive animation project by myself I used the Unity engine to cut down on rendering costs, and coded tools that I could use to expedite my process. In addition to my screenwriter, I also worked with over ten voice actors, a musician, a motion capture technician, and a texture artist.',
     media: [
       {
+        path: '/assets/img/thumbnails/gatt.jpg',
+        type: 'image',
+        title: 'GATT - S.T.A.R. (Episode 1) Poster',
+      },
+      {
         path: 'https://www.youtube.com/embed/psK-yVmJQms',
         type: 'youtube',
         title: 'GATT - S.T.A.R. (Episode 1)',
@@ -1234,11 +1239,6 @@ The success of this hybrid AI + traditional art workflow has influenced future G
       //   path: 'https://www.youtube.com/embed/0ESmRDQzvxA',
       //   type: 'youtube',
       //   title: 'This is the main video',
-      // },
-      // {
-      //   path: '/assets/img/fullsize/gatt1.jpeg',
-      //   type: 'image',
-      //   title: 'This is the main image',
       // },
       // {
       //   path: '/assets/img/fullsize/gatt2.jpeg',
