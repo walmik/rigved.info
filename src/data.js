@@ -106,20 +106,129 @@ Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. Th
 - Collaborated with engineering teams to integrate tools with proprietary game engines
 `, */
   },
-  federicosolmi_nft: {
-    title: 'Character & NFT Works - Federico Solmi',
+  federicosolmi_characters: {
+    title: 'Character Design & Modeling - Federico Solmi',
     poster: '/assets/img/federico-solmi/thumbnail.jpg',
     category: 'professional',
     client: 'Federico Solmi',
     year: 2022,
     dateRange: 'Jun 2021 - Dec 2022',
-    tags: ['NFT', '3D Modeling', 'Character Design', 'Unity', 'Blender'],
+    tags: ['Character Design', '3D Modeling', 'Texturing', 'Character Rigging', 'Blender', 'Unity'],
     featured: true,
     order: 2,
     shortDescription:
-      'Created 3D character models and NFT artworks for internationally exhibited multimedia artist Federico Solmi. Work featured in Times Square, NYC.',
+      'Developed detailed 3D character models portraying tech industry figures in historical and mythological roles for internationally exhibited multimedia artist Federico Solmi.',
     longDescription:
-      'Developed detailed 3D character models and NFT artworks for Federico Solmi, a Guggenheim Fellow whose satirical video installations have been exhibited at the Venice Biennale, Smithsonian National Portrait Gallery, and the Phillips Collection. My work includes character modeling, texturing, rigging, and rendering for NFT projects featuring satirical portrayals of tech industry figures.',
+      'Created character models for Federico Solmi, a Guggenheim Fellow whose satirical installations have been exhibited at the Venice Biennale, Smithsonian National Portrait Gallery, and the Phillips Collection. Developed full character pipeline from concept to final render, combining classical art references with contemporary tech culture critique.',
+    media: [
+      // Mark Zuckerberg
+      {
+        path: '/assets/img/federico-solmi/characters/mark_zuckerberg_character_sheet.png',
+        type: 'image',
+        title: 'Mark Zuckerberg Character Sheet',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/mark_zuckerberg_hero_pose.png',
+        type: 'image',
+        title: 'Mark Zuckerberg Hero Pose',
+      },
+      // Elon Musk
+      {
+        path: '/assets/img/federico-solmi/characters/elon_musk_character_sheet.png',
+        type: 'image',
+        title: 'Elon Musk Character Sheet',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/ElonMuskAs DoctorMabuseIII-TheNibelung_40x30in_FLR.jpg',
+        type: 'image',
+        title: 'Elon Musk As Doctor Mabuse III - The Nibelung',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/ElonMuskAsDoctor MabuseII-TheLadyWithAnErmine_40x30in_FLR.jpg',
+        type: 'image',
+        title: 'Elon Musk As Doctor Mabuse II - The Lady With An Ermine',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/ElonTheNobleman.png',
+        type: 'image',
+        title: 'Elon The Nobleman',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/ElonThePharoahII.png',
+        type: 'image',
+        title: 'Elon The Pharoah II',
+      },
+      // Kim Kardashian
+      {
+        path: '/assets/img/federico-solmi/characters/kim_kardashian_character_sheet.png',
+        type: 'image',
+        title: 'Kim Kardashian Character Sheet',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/KimKardashian_Character_Turnaround_Concept.png',
+        type: 'image',
+        title: 'Kim Kardashian Character Turnaround Concept',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/kim_face_comparison.png',
+        type: 'image',
+        title: 'Kim Face Comparison',
+      },
+      // Vitalik Buterin
+      {
+        path: '/assets/img/federico-solmi/characters/vitalik_buterin_character_sheet.png',
+        type: 'image',
+        title: 'Vitalik Buterin Character Sheet',
+      },
+      {
+        path: '/assets/img/federico-solmi/characters/VitalikButerin_Concept_Turnaround.png',
+        type: 'image',
+        title: 'Vitalik Buterin Concept Turnaround',
+      },
+      // Warren Buffett
+      {
+        path: '/assets/img/federico-solmi/characters/PortraitOfWarrenBuffettWithAPoodle_48x60_FLR.jpg',
+        type: 'image',
+        title: 'Portrait Of Warren Buffett With A Poodle',
+      },
+      // Technical
+      {
+        path: '/assets/img/federico-solmi/characters/FaceComparison.png',
+        type: 'image',
+        title: 'Face Comparison',
+      },
+    ],
+    technicalApproach:
+      "Developed complete character pipeline from concept through final render, including modeling in Blender, hand-painted and procedural texturing, custom rigging for dynamic poses, and real-time rendering in Unity. Each character required extensive research into historical costume design and classical art references, combined with contemporary portrait work. Created custom shaders for materials ranging from medieval armor to art deco metallic surfaces. Workflow emphasized artistic collaboration and rapid iteration to match Federico's distinctive satirical vision.",
+    impact:
+      "Characters became central to a Guggenheim Fellow's internationally exhibited installations exploring tech culture, mythology, and contemporary society. Work demonstrated ability to bridge classical art history with cutting-edge 3D production, translating complex satirical concepts into compelling visual forms. Successfully collaborated with established multimedia artist to realize ambitious creative vision while maintaining technical quality suitable for gallery exhibition and large-format public display.",
+    skills: [
+      '3D Character Modeling',
+      'Character Design',
+      'Texturing & Materials',
+      'Character Rigging',
+      'Costume Design',
+      'Blender',
+      'Unity Rendering',
+      'Art Direction',
+      'Historical Research',
+      'Collaborative Creation',
+    ],
+  },
+  federicosolmi_nft: {
+    title: 'NFT Collection - Federico Solmi',
+    poster: '/assets/img/federico-solmi/nft-elon-kim.jpg',
+    category: 'publishing',
+    client: 'Federico Solmi',
+    year: 2022,
+    dateRange: 'Jun 2021 - Dec 2022',
+    tags: ['NFT', 'Digital Art', 'Blockchain', 'Public Art', 'Unity', 'Times Square'],
+    featured: false,
+    order: 3,
+    shortDescription:
+      'Produced NFT artworks featuring satirical portrayals of tech industry figures for internationally exhibited multimedia artist. Work featured in Times Square, NYC.',
+    longDescription:
+      'Created NFT collection for Federico Solmi exploring cryptocurrency culture and tech industry satire. Works combine classical art composition with contemporary digital culture, featuring tech figures in absurdist tableaux. Collection exhibited in Times Square and international digital platforms.',
     media: [
       {
         path: '/assets/img/federico-solmi/nft-elon-kim.jpg',
@@ -163,21 +272,20 @@ Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. Th
       },
     ],
     technicalApproach:
-      "Created detailed 3D character models combining classical art references with contemporary tech culture critique. Full pipeline included modeling in Blender, texturing with hand-painted and procedural techniques, rigging for dynamic poses, and real-time rendering in Unity. Characters feature period-appropriate costume design, dramatic lighting, and cinematic composition. Each NFT artwork required physics-based animation, environment design, and post-processing to achieve Federico's distinctive satirical aesthetic.",
+      "Produced complete NFT artworks from concept to blockchain deployment. Pipeline included environment design, physics-based animation, cinematic composition, and real-time rendering in Unity. Each piece required custom lighting setups for dramatic effect, post-processing for Federico's distinctive aesthetic, and technical optimization for both large-format public display and NFT platforms. Managed end-to-end production including asset creation, scene assembly, animation, rendering, and final delivery for Ethereum blockchain deployment.",
     impact:
-      "Work featured in Times Square, NYC as part of public art installations, reaching millions of viewers. NFT collection exhibited internationally at galleries and digital platforms, contributing to a Guggenheim Fellow's exploration of cryptocurrency culture and tech industry satire. Successfully translated Federico Solmi's multimedia installation aesthetic into the NFT medium while maintaining artistic integrity and technical quality suitable for large-format public display.",
+      "Work featured in Times Square, NYC as part of public art installations, reaching millions of viewers. NFT collection sold on Ethereum blockchain and exhibited internationally at galleries and digital platforms. Successfully translated Federico Solmi's multimedia installation aesthetic into the NFT medium while maintaining artistic integrity. Demonstrated ability to work across traditional art, cutting-edge technology, and public art contexts, contributing to a Guggenheim Fellow's exploration of cryptocurrency culture and tech industry satire.",
     skills: [
-      '3D Character Modeling',
-      'Texturing & Materials',
-      'Character Rigging',
-      'Unity Real-time Rendering',
-      'Blender',
       'NFT Production',
+      'Digital Art',
+      'Unity Real-time Rendering',
       'Environment Design',
       'Cinematic Lighting',
       'Physics Animation',
-      'Costume Design',
       'Public Art Installation',
+      'Blockchain/Ethereum',
+      'Post-Processing',
+      'Art Direction',
     ],
     // Original verbose markdown preserved below (commented out)
     /* markdown: `
