@@ -211,8 +211,38 @@ export default function PortfolioItem() {
           </div>
         )}
 
-        {/* Detailed content */}
-        {item.markdown && getMarkdown()}
+        {/* Project Summary */}
+        {(item.technicalApproach || item.impact || item.skills) && (
+          <div className="project-summary">
+            {item.technicalApproach && (
+              <div className="summary-section">
+                <h3 className="summary-title">Technical Approach</h3>
+                <p>{item.technicalApproach}</p>
+              </div>
+            )}
+
+            {item.impact && (
+              <div className="summary-section">
+                <h3 className="summary-title">Impact & Results</h3>
+                <p>{item.impact}</p>
+              </div>
+            )}
+
+            {item.skills && item.skills.length > 0 && (
+              <div className="summary-section">
+                <h3 className="summary-title">Key Skills Demonstrated</h3>
+                <ul className="skills-list">
+                  {item.skills.map((skill, i) => (
+                    <li key={i}>{skill}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Detailed content (fallback for items without summary) */}
+        {!item.technicalApproach && !item.impact && !item.skills && item.markdown && getMarkdown()}
       </div>
 
       {/* Lightbox */}

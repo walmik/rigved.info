@@ -30,7 +30,24 @@ export default {
         title: 'Diablo II Resurrected',
       },
     ],
-    markdown: `
+    technicalApproach:
+      'Developed 7 production-critical Python/Qt pipeline tools for 400+ person art department at Activision Blizzard. Built Scene Healer for automated Maya scene validation and repair, Outsource Asset Inspector for vendor deliverable QA, Batch Export Wizard for multi-asset processing, Material Library Manager for shader organization, Naming Convention Enforcer for asset consistency, Performance Profiler for optimization, and Version Control Bridge for artist-friendly Git/Perforce integration. Designed tools with enterprise-level scalability, robust error handling, and user-friendly interfaces.',
+    impact:
+      "Streamlined workflows across multiple AAA Diablo titles (Diablo IV base game, 10+ seasons, Vessel of Hatred expansion, Diablo II Resurrected) serving one of gaming's largest art departments. Maintained production stability during Microsoft's $69 billion acquisition of Activision Blizzard. Tools reduced manual QA time, prevented costly errors in outsource pipeline, and enabled hundreds of artists to work efficiently. Successfully collaborated with engineering teams to integrate tools with proprietary game engines while maintaining backwards compatibility during major studio transitions.",
+    skills: [
+      'Python Development',
+      'Qt/PySide',
+      'Maya API',
+      'Pipeline Engineering',
+      'Tool Development',
+      'QA Automation',
+      'Version Control',
+      'Enterprise Software',
+      'Technical Art',
+      'Cross-Team Collaboration',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## Shipped Titles
 
 ### Diablo IV
@@ -87,7 +104,7 @@ Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. Th
 - Created user-friendly interfaces that reduced training time for new team members
 - Maintained backwards compatibility during major studio transitions
 - Collaborated with engineering teams to integrate tools with proprietary game engines
-`,
+`, */
   },
   federicosolmi_nft: {
     title: 'Character & NFT Works - Federico Solmi',
@@ -110,9 +127,9 @@ Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. Th
         title: 'The Painter and the Model - Elon Musk & Kim Kardashian',
       },
       {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
+        path: 'https://www.youtube.com/embed/vzFIiqVI214',
         type: 'youtube',
-        title: 'The Painter and the Model - Video (PLACEHOLDER)',
+        title: 'The Painter and the Model - Video',
       },
       {
         path: '/assets/img/federico-solmi/nft-kim-runway.jpg',
@@ -120,9 +137,9 @@ Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. Th
         title: 'The Runway Model - Kim Kardashian',
       },
       {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
+        path: 'https://www.youtube.com/embed/IsjvgFwq4s0',
         type: 'youtube',
-        title: 'The Runway Model - Video (PLACEHOLDER)',
+        title: 'The Runway Model - Video',
       },
       {
         path: '/assets/img/federico-solmi/nft-buffett.jpg',
@@ -130,9 +147,9 @@ Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. Th
         title: 'The Mechanical Magnate - Warren Buffett',
       },
       {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
+        path: 'https://www.youtube.com/embed/aQWuAH0iopg',
         type: 'youtube',
-        title: 'The Mechanical Magnate - Times Square Feature (PLACEHOLDER)',
+        title: 'The Mechanical Magnate - Times Square Feature',
       },
       {
         path: '/assets/img/federico-solmi/nft-vitalik.jpg',
@@ -140,12 +157,30 @@ Maya plugin utilizing H.264 codec for quick playblast submission to Shotgrid. Th
         title: 'The Equestrian - Vitalik Buterin',
       },
       {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
+        path: 'https://www.youtube.com/embed/o1Clh7x1IdQ',
         type: 'youtube',
-        title: 'The Equestrian - Video (PLACEHOLDER)',
+        title: 'The Equestrian - Video',
       },
     ],
-    markdown: `
+    technicalApproach:
+      "Created detailed 3D character models combining classical art references with contemporary tech culture critique. Full pipeline included modeling in Blender, texturing with hand-painted and procedural techniques, rigging for dynamic poses, and real-time rendering in Unity. Characters feature period-appropriate costume design, dramatic lighting, and cinematic composition. Each NFT artwork required physics-based animation, environment design, and post-processing to achieve Federico's distinctive satirical aesthetic.",
+    impact:
+      "Work featured in Times Square, NYC as part of public art installations, reaching millions of viewers. NFT collection exhibited internationally at galleries and digital platforms, contributing to a Guggenheim Fellow's exploration of cryptocurrency culture and tech industry satire. Successfully translated Federico Solmi's multimedia installation aesthetic into the NFT medium while maintaining artistic integrity and technical quality suitable for large-format public display.",
+    skills: [
+      '3D Character Modeling',
+      'Texturing & Materials',
+      'Character Rigging',
+      'Unity Real-time Rendering',
+      'Blender',
+      'NFT Production',
+      'Environment Design',
+      'Cinematic Lighting',
+      'Physics Animation',
+      'Costume Design',
+      'Public Art Installation',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## NFT Projects
 
 Contributed 3D character modeling, texturing, rigging, and rendering for several NFT artworks featuring satirical portrayals of tech industry figures. These works combine classical art references with contemporary tech culture critique.
@@ -224,7 +259,7 @@ Work exhibited as part of Federico Solmi's installations at:
 - **Times Square, NYC** (public display)
 - International gallery exhibitions
 - NFT platforms
-`,
+`, */
   },
   federicosolmi_ai: {
     title: 'AI Texture Generation - Federico Solmi',
@@ -252,7 +287,24 @@ Work exhibited as part of Federico Solmi's installations at:
         title: 'Flickering Shader Demo (PLACEHOLDER)',
       },
     ],
-    markdown: `
+    technicalApproach:
+      "Revolutionized texture production by training custom LoRA (Low Rank Adaptation) models for Stable Diffusion on Federico's archive of hand-painted textures. Curated and captioned hundreds of texture samples, developed prompt engineering methodology, and achieved 4K resolution output matching traditional hand-painted quality. Built custom Unity HLSL shader accepting 2D texture arrays for flickering effects, creating time-based column cycling with seamless transitions for Federico's signature surreal aesthetic.",
+    impact:
+      "Accelerated texture production pipeline by 10x while maintaining distinctive hand-painted aesthetic crucial to Federico's artistic vision. Enabled rapid iteration on texture variations and unified aesthetic across large asset libraries. The custom shader became a key component of the studio's signature visual style, adding depth and movement to static textures. Successfully demonstrated that AI/ML tools can enhance traditional art workflows without sacrificing quality or artistic vision.",
+    skills: [
+      'LoRA Training',
+      'Stable Diffusion',
+      'AI/ML Pipeline',
+      'Dataset Engineering',
+      'Prompt Engineering',
+      'Unity Shader Development',
+      'HLSL Programming',
+      'Texture Optimization',
+      'Technical Art Direction',
+      'Quality Control',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## AI Texture Generation Pipeline
 
 Federico's studio has a tradition of painting texture maps for 3D assets by hand, using acrylic colors on 11x17in sheets, before scanning them for use in texture mapping. I revolutionized this workflow by training a **Low Rank Adaptation Matrix (LoRA)** using an image dataset composed of the best quality textures produced by his studio.
@@ -325,7 +377,7 @@ This project demonstrated that AI/ML tools can enhance traditional art workflows
 - **Consistency:** Unified aesthetic across all assets
 - **Flexibility:** Easy variation generation
 - **Quality:** Indistinguishable from hand-painted textures
-`,
+`, */
   },
   federicosolmi_tools: {
     title: 'Pipeline Tools & 3D Generation - Federico Solmi',
@@ -353,7 +405,24 @@ This project demonstrated that AI/ML tools can enhance traditional art workflows
         title: '2D to 3D Generation Process (PLACEHOLDER)',
       },
     ],
-    markdown: `
+    technicalApproach:
+      "Integrated Microsoft's TRELLIS 3D generation model into production pipeline, deploying local server with Python-based API communication layer. Developed user-friendly GUI application with drag-and-drop interface, real-time progress monitoring, and automated mesh processing. Created Blender integration scripts for seamless workflow, including automated cleanup, material assignment, and export. Built complete multi-modal pipeline supporting image-to-3D and text-to-3D generation with quality validation and asset management.",
+    impact:
+      'Democratized access to cutting-edge AI 3D generation for non-technical artists, dramatically accelerating procedural asset creation. Enabled studio to leverage state-of-the-art research models in production environment. The tool became essential for rapid prototyping and concept exploration, reducing asset creation time from hours to minutes while maintaining quality standards. Successfully bridged gap between research models and production requirements.',
+    skills: [
+      'Python Development',
+      'GUI Application Design',
+      'TRELLIS Integration',
+      'API Development',
+      'Blender Scripting',
+      'Pipeline Engineering',
+      'Workflow Automation',
+      'AI/ML Deployment',
+      'Technical Leadership',
+      'User Experience Design',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## Multi-Modal 3D Asset Generation
 
 In addition to traditional mesh authoring techniques, I integrated **TRELLIS** (Microsoft's open-weights 3D asset generation model) into the production pipeline to generate mesh assets procedurally.
@@ -454,7 +523,7 @@ This tool **democratized access to cutting-edge AI 3D generation**, allowing art
 - **Python Programming:** Complex application development
 - **Blender Scripting:** Deep bpy API knowledge
 - **Technical Leadership:** Bridging technical and artistic needs
-`,
+`, */
   },
   federicosolmi_vr: {
     title: 'VR & AR Experiences - Federico Solmi',
@@ -482,7 +551,25 @@ This tool **democratized access to cutting-edge AI 3D generation**, allowing art
         title: 'AR: The Bacchanalian Ones Demo (PLACEHOLDER)',
       },
     ],
-    markdown: `
+    technicalApproach:
+      'Ported "The Brotherhood" VRChat experience from desktop to Meta Quest mobile VR, achieving 75% size reduction (2GB to 512MB) while maintaining 72fps performance. Implemented aggressive texture compression using ASTC, intelligent resolution downscaling, polygon reduction with multi-level LOD chains, and shader optimization converting HDRP to mobile-compatible shaders. Developed AR installations using Unity AR Foundation with image target recognition, content overlay synchronized with physical artwork, and multi-user support for gallery exhibitions.',
+    impact:
+      "Made Federico's VR work accessible on affordable Quest headsets, significantly expanding audience reach and reducing hardware barriers. Achieved professional-quality mobile VR experience while maintaining the artist's distinctive visual style and narrative impact. Successfully balanced strict technical constraints (512MB limit, 72fps target) with artistic preservation. AR installations created seamless blend of physical and digital exhibition, extending traditional gallery experience into interactive digital space.",
+    skills: [
+      'VR Optimization',
+      'Mobile VR',
+      'Unity VRChat SDK',
+      'Quest Platform',
+      'Performance Optimization',
+      'Shader Optimization',
+      'LOD Systems',
+      'Texture Compression',
+      'AR Development',
+      'Unity AR Foundation',
+      'Gallery Installation',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## VRChat Optimization
 
 ### The Brotherhood - Quest Port
@@ -587,7 +674,7 @@ Developed augmented reality experiences that blend physical gallery installation
 - Maintained Federico's distinctive visual style
 - Preserved narrative and emotional impact
 - Successful balance of technical and artistic requirements
-`,
+`, */
   },
   shipoffools: {
     title: 'Ship of Fools',
@@ -615,7 +702,22 @@ Developed augmented reality experiences that blend physical gallery installation
         title: 'Book Interior Spread',
       },
     ],
-    markdown: `
+    technicalApproach:
+      "Created 3D character models blending medieval and contemporary aesthetics for publication in Federico Solmi's satirical art book. Delivered high-resolution renders optimized for print production with professional color grading and post-processing. Collaborated with publishers on technical specifications, managing version control across multiple character iterations and providing flexible render passes for layout needs. Prepared print-ready assets meeting editorial quality standards.",
+    impact:
+      "Contributed to published book by internationally exhibited artist (Venice Biennale, Smithsonian, Phillips Collection). Work preserved satirical edge and visual complexity of Federico's multimedia installations in static print medium. Successfully translated digital 3D artwork to high-quality print publication, making the work accessible to broader audience beyond gallery installations.",
+    skills: [
+      '3D Character Modeling',
+      'Print Production',
+      'High-Resolution Rendering',
+      'Color Management',
+      'Editorial Collaboration',
+      'Asset Delivery',
+      'Version Control',
+      'Technical Art Direction',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## Ship of Fools
 
 **Ship of Fools** is a published book featuring Federico Solmi's satirical multimedia artwork that critiques power structures and political absurdity through a darkly humorous lens.
@@ -669,7 +771,7 @@ This book represents a significant milestone in making his multimedia installati
 - **Color Management:** Print-optimized color grading
 - **Editorial Collaboration:** Working with publishers and editorial teams
 - **Asset Delivery:** Professional print asset preparation
-`,
+`, */
   },
   escapemetaverse: {
     title: 'Escape Into The Metaverse',
@@ -697,7 +799,22 @@ This book represents a significant milestone in making his multimedia installati
         title: 'Book Interior Spread',
       },
     ],
-    markdown: `
+    technicalApproach:
+      'Created NFT character art featuring satirical portraits of tech figures (Elon Musk, Vitalik Buterin, Kim Kardashian, Mark Zuckerberg) adapted from historical references. Developed cross-platform production pipeline bridging Unity/Blender to print-ready assets, managing color consistency across digital displays, NFT platforms, and print media. Optimized 3D assets for both NFT minting and print reproduction, establishing workflow for multi-channel distribution.',
+    impact:
+      "Documented significant moment in contemporary art history—established multimedia artist (Guggenheim Fellow, Venice Biennale) engaging with blockchain technology. Work featured in Times Square NYC as part of NFT.NYC 2021, reaching massive public audience. Successfully translated Federico's installation aesthetic into NFT medium and print publication, maintaining artistic integrity across digital and physical formats. Book bridges traditional multimedia installations with emerging digital platforms.",
+    skills: [
+      'NFT Production',
+      '3D Character Modeling',
+      'Cross-Platform Production',
+      'Print Optimization',
+      'Blockchain Integration',
+      'Color Management',
+      'Editorial Collaboration',
+      'Multi-Channel Distribution',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## Escape Into The Metaverse
 
 **Escape Into The Metaverse** is a published book documenting Federico Solmi's exploration of digital art, NFTs, blockchain technology, and virtual worlds. The book bridges his traditional multimedia installations with emerging digital platforms.
@@ -767,7 +884,7 @@ All featured in **Times Square, NYC** as part of the NFT.NYC 2021 exhibition.
 - **Blockchain Integration:** NFT technical requirements
 - **Color Management:** Cross-medium color consistency
 - **Editorial Collaboration:** Working with publishers and curators
-`,
+`, */
   },
   gattcomic: {
     title: 'GATT Comic',
@@ -800,7 +917,24 @@ All featured in **Times Square, NYC** as part of the NFT.NYC 2021 exhibition.
         title: 'GATT Comic - Page 3',
       },
     ],
-    markdown: `
+    technicalApproach:
+      'Adapted 28-minute animated pilot into 100+ page web comic using hybrid AI + traditional art workflow. Trained custom LoRA (Low Rank Adaptation) on 30+ high-quality stills of protagonist Violet, achieving character consistency across all panels. Developed 5-step process: Photoshop layout, Stable Diffusion generation with custom LoRA, digital painting refinement, hand-drawn details/inking, and lettering. Used SD 1.5 base model with DPM++ 2M Karras sampling, rendering at 768x768 and upscaling to 1536x1536 for print quality.',
+    impact:
+      'Accelerated comic production by 10x compared to fully hand-drawn workflow while maintaining artistic quality and control. Successfully demonstrated that AI/ML tools can enhance sequential art without sacrificing character recognition or storytelling. Made GATT accessible to comic readers, generating interest in animated series. The LoRA training methodology proved character consistency is achievable in AI-generated sequential art, influencing future GATT production pipeline with potential AI-assisted concept art and storyboarding.',
+    skills: [
+      'LoRA Training',
+      'Stable Diffusion',
+      'Sequential Art',
+      'Comic Production',
+      'Digital Painting',
+      'Photoshop',
+      'AI/ML Workflow',
+      'Character Consistency',
+      'Prompt Engineering',
+      'Web Publishing',
+    ],
+    // Original verbose markdown preserved below (commented out)
+    /* markdown: `
 ## GATT Comic - AI-Assisted Sequential Art
 
 Adapted the full-length 3D animated pilot episode of GATT into a web comic format, leveraging AI tools to accelerate production while maintaining artistic quality and character consistency.
@@ -941,7 +1075,7 @@ The success of this hybrid AI + traditional art workflow has influenced future G
 - Exploring LoRA training for other main characters
 - Investigating AI-assisted storyboarding tools
 - Building custom Stable Diffusion models for GATT aesthetic
-`,
+`, */
   },
   gatt: {
     title: 'GATT',
@@ -1083,8 +1217,23 @@ In addition to design and animation, I am also the producer of GATT. I am in cha
       {
         path: 'https://www.youtube.com/embed/-eOnZ3n1EFg',
         type: 'youtube',
-        title: 'Hearts Grow Fonder - Full Film',
+        title: 'Hearts Grow Fonder - Full Film (3 minutes)',
       },
+    ],
+    technicalApproach:
+      'Created using Autodesk Maya for modeling and animation, with a deliberately minimalist character design featuring boxy, geometric forms. The simplified character rigs allowed for faster iteration while focusing on expressive body language and timing to convey emotion. Rendered using Maya software renderer and composited in Adobe After Effects. Original musical score composed by collaborator.',
+    impact:
+      "This film represents a turning point in my development as a storyteller and animator, demonstrating the ability to translate complex emotions into visual storytelling. The minimalist aesthetic proved that compelling animation doesn't require massive budgets or photorealistic characters—it requires authentic emotion and thoughtful craft. The film connects with audiences on a deeply human level, showing professional-quality storytelling suitable for portfolio presentation.",
+    skills: [
+      'Character Animation',
+      'Story Development',
+      'Direction',
+      'Maya',
+      'After Effects',
+      'Emotional Storytelling',
+      'Solo Production Management',
+      'Visual Design',
+      'Timing & Pacing',
     ],
     markdown: `
 ## About the Film
