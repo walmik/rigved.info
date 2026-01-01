@@ -277,14 +277,34 @@ Work exhibited as part of Federico Solmi's installations at:
       "Revolutionized Federico Solmi Studio's texture production workflow by training custom LoRA models for Stable Diffusion, enabling rapid generation of 4K hand-painted-style textures. This innovation maintained the studio's distinctive aesthetic while dramatically accelerating production timelines.",
     media: [
       {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
-        type: 'youtube',
-        title: 'AI Texture Generation Process (PLACEHOLDER)',
+        path: '/assets/img/federico-solmi/ai/FlickeryShader.png',
+        type: 'image',
+        title: 'Flickery Shader',
       },
       {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
-        type: 'youtube',
-        title: 'Flickering Shader Demo (PLACEHOLDER)',
+        path: '/assets/img/federico-solmi/ai/LoRA_ProcessDiagram.png',
+        type: 'image',
+        title: 'LoRA Process Diagram',
+      },
+      {
+        path: '/assets/img/federico-solmi/ai/StableDiffusion_Process_Diagram.png',
+        type: 'image',
+        title: 'Stable Diffusion Process Diagram',
+      },
+      {
+        path: '/assets/img/federico-solmi/ai/TextureComparison.png',
+        type: 'image',
+        title: 'Texture Comparison',
+      },
+      {
+        path: '/assets/img/federico-solmi/ai/TrellisMethod.png',
+        type: 'image',
+        title: 'Trellis Method',
+      },
+      {
+        path: '/assets/img/federico-solmi/ai/Variations.png',
+        type: 'image',
+        title: 'Variations',
       },
     ],
     technicalApproach:
@@ -541,14 +561,9 @@ This tool **democratized access to cutting-edge AI 3D generation**, allowing art
       'Ported Federico Solmi\'s "The Brotherhood" VRChat experience from desktop to Quest platform, requiring significant technical optimization to meet mobile VR constraints while maintaining visual quality. Also developed augmented reality experiences for gallery installations.',
     media: [
       {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
-        type: 'youtube',
-        title: 'VRChat: The Brotherhood - Quest Walkthrough (PLACEHOLDER)',
-      },
-      {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
-        type: 'youtube',
-        title: 'AR: The Bacchanalian Ones Demo (PLACEHOLDER)',
+        path: '/assets/img/federico-solmi/vr-ar/TheBacchanalianOnes_FLR.png',
+        type: 'image',
+        title: 'The Bacchanalian Ones FLR',
       },
     ],
     technicalApproach:
