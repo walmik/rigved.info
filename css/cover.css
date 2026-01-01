@@ -636,10 +636,10 @@ ul {
 
 .item-title {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 36px;
+  font-size: 22px;
   font-weight: 600;
   margin: 0 0 20px 0;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .item-meta {
@@ -964,7 +964,7 @@ ul {
   }
 
   .item-title {
-    font-size: 28px;
+    font-size: 18px;
   }
 
   .item-meta {
