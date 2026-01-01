@@ -399,152 +399,152 @@ This project demonstrated that AI/ML tools can enhance traditional art workflows
 - **Quality:** Indistinguishable from hand-painted textures
 `, */
   },
-  federicosolmi_tools: {
-    title: 'Pipeline Tools & 3D Generation - Federico Solmi',
-    poster: '/assets/img/federico-solmi/tools-thumb.jpg',
-    category: 'professional',
-    client: 'Federico Solmi',
-    year: 2022,
-    dateRange: 'Jun 2021 - Dec 2022',
-    tags: ['Pipeline Tools', 'Python', 'TRELLIS', 'AI/ML', 'Blender', 'Automation', 'Publishing'],
-    featured: false,
-    order: 4,
-    shortDescription:
-      "Developed Python GUI tools integrating Microsoft's TRELLIS 3D generation model into production pipeline, enabling procedural multi-modal asset creation.",
-    longDescription:
-      "Integrated cutting-edge AI 3D generation technology into Federico Solmi Studio's production pipeline, creating user-friendly tools that democratized access to procedural asset generation for non-technical artists.",
-    media: [
-      {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
-        type: 'youtube',
-        title: 'TRELLIS Tool Demo (PLACEHOLDER)',
-      },
-      {
-        path: 'https://www.youtube.com/embed/psK-yVmJQms',
-        type: 'youtube',
-        title: '2D to 3D Generation Process (PLACEHOLDER)',
-      },
-    ],
-    technicalApproach:
-      "Integrated Microsoft's TRELLIS 3D generation model into production pipeline, deploying local server with Python-based API communication layer. Developed user-friendly GUI application with drag-and-drop interface, real-time progress monitoring, and automated mesh processing. Created Blender integration scripts for seamless workflow, including automated cleanup, material assignment, and export. Built complete multi-modal pipeline supporting image-to-3D and text-to-3D generation with quality validation and asset management.",
-    impact:
-      'Democratized access to cutting-edge AI 3D generation for non-technical artists, dramatically accelerating procedural asset creation. Enabled studio to leverage state-of-the-art research models in production environment. The tool became essential for rapid prototyping and concept exploration, reducing asset creation time from hours to minutes while maintaining quality standards. Successfully bridged gap between research models and production requirements.',
-    skills: [
-      'Python Development',
-      'GUI Application Design',
-      'TRELLIS Integration',
-      'API Development',
-      'Blender Scripting',
-      'Pipeline Engineering',
-      'Workflow Automation',
-      'AI/ML Deployment',
-      'Technical Leadership',
-      'User Experience Design',
-    ],
-    // Original verbose markdown preserved below (commented out)
-    /* markdown: `
-## Multi-Modal 3D Asset Generation
+  //   federicosolmi_tools: {
+  //     title: 'Pipeline Tools & 3D Generation - Federico Solmi',
+  //     poster: '/assets/img/federico-solmi/tools-thumb.jpg',
+  //     category: 'professional',
+  //     client: 'Federico Solmi',
+  //     year: 2022,
+  //     dateRange: 'Jun 2021 - Dec 2022',
+  //     tags: ['Pipeline Tools', 'Python', 'TRELLIS', 'AI/ML', 'Blender', 'Automation', 'Publishing'],
+  //     featured: false,
+  //     order: 4,
+  //     shortDescription:
+  //       "Developed Python GUI tools integrating Microsoft's TRELLIS 3D generation model into production pipeline, enabling procedural multi-modal asset creation.",
+  //     longDescription:
+  //       "Integrated cutting-edge AI 3D generation technology into Federico Solmi Studio's production pipeline, creating user-friendly tools that democratized access to procedural asset generation for non-technical artists.",
+  //     media: [
+  //       {
+  //         path: 'https://www.youtube.com/embed/psK-yVmJQms',
+  //         type: 'youtube',
+  //         title: 'TRELLIS Tool Demo (PLACEHOLDER)',
+  //       },
+  //       {
+  //         path: 'https://www.youtube.com/embed/psK-yVmJQms',
+  //         type: 'youtube',
+  //         title: '2D to 3D Generation Process (PLACEHOLDER)',
+  //       },
+  //     ],
+  //     technicalApproach:
+  //       "Integrated Microsoft's TRELLIS 3D generation model into production pipeline, deploying local server with Python-based API communication layer. Developed user-friendly GUI application with drag-and-drop interface, real-time progress monitoring, and automated mesh processing. Created Blender integration scripts for seamless workflow, including automated cleanup, material assignment, and export. Built complete multi-modal pipeline supporting image-to-3D and text-to-3D generation with quality validation and asset management.",
+  //     impact:
+  //       'Democratized access to cutting-edge AI 3D generation for non-technical artists, dramatically accelerating procedural asset creation. Enabled studio to leverage state-of-the-art research models in production environment. The tool became essential for rapid prototyping and concept exploration, reducing asset creation time from hours to minutes while maintaining quality standards. Successfully bridged gap between research models and production requirements.',
+  //     skills: [
+  //       'Python Development',
+  //       'GUI Application Design',
+  //       'TRELLIS Integration',
+  //       'API Development',
+  //       'Blender Scripting',
+  //       'Pipeline Engineering',
+  //       'Workflow Automation',
+  //       'AI/ML Deployment',
+  //       'Technical Leadership',
+  //       'User Experience Design',
+  //     ],
+  //     // Original verbose markdown preserved below (commented out)
+  //     /* markdown: `
+  // ## Multi-Modal 3D Asset Generation
 
-In addition to traditional mesh authoring techniques, I integrated **TRELLIS** (Microsoft's open-weights 3D asset generation model) into the production pipeline to generate mesh assets procedurally.
+  // In addition to traditional mesh authoring techniques, I integrated **TRELLIS** (Microsoft's open-weights 3D asset generation model) into the production pipeline to generate mesh assets procedurally.
 
-### TRELLIS Integration
+  // ### TRELLIS Integration
 
-TRELLIS is Microsoft's state-of-the-art 3D generation model capable of creating high-quality 3D meshes from 2D reference images. I developed a complete pipeline to make this technology accessible to the studio's artists.
+  // TRELLIS is Microsoft's state-of-the-art 3D generation model capable of creating high-quality 3D meshes from 2D reference images. I developed a complete pipeline to make this technology accessible to the studio's artists.
 
-**Technical Architecture:**
-- Local TRELLIS server deployment
-- Python-based API communication layer
-- Automated mesh processing and cleanup
-- Blender integration for immediate usability
+  // **Technical Architecture:**
+  // - Local TRELLIS server deployment
+  // - Python-based API communication layer
+  // - Automated mesh processing and cleanup
+  // - Blender integration for immediate usability
 
----
+  // ---
 
-## GUI Tool Development
+  // ## GUI Tool Development
 
-Created a **Python-based GUI application** for the studio team to utilize this cutting-edge workflow without requiring technical expertise.
+  // Created a **Python-based GUI application** for the studio team to utilize this cutting-edge workflow without requiring technical expertise.
 
-### Tool Features
+  // ### Tool Features
 
-**User Interface:**
-- Drag-and-drop image input
-- Real-time progress monitoring
-- Batch processing support
-- One-click mesh export
+  // **User Interface:**
+  // - Drag-and-drop image input
+  // - Real-time progress monitoring
+  // - Batch processing support
+  // - One-click mesh export
 
-**Backend Processing:**
-- **2D to 3D Conversion:** Sends reference images to locally running TRELLIS server
-- **Automated Export:** Saves generated meshes to GLB files with proper naming conventions
-- **Quality Control:** Validates mesh topology and reports issues
-- **Error Handling:** Robust error recovery and user feedback
+  // **Backend Processing:**
+  // - **2D to 3D Conversion:** Sends reference images to locally running TRELLIS server
+  // - **Automated Export:** Saves generated meshes to GLB files with proper naming conventions
+  // - **Quality Control:** Validates mesh topology and reports issues
+  // - **Error Handling:** Robust error recovery and user feedback
 
-**Blender Integration:**
-- **Template System:** Pre-configured Blender scenes for common asset types
-- **Import Scripts:** One-click importing of generated meshes into Blender
-- **Material Setup:** Automatic PBR material node setup
-- **Scene Organization:** Proper layer and collection management
+  // **Blender Integration:**
+  // - **Template System:** Pre-configured Blender scenes for common asset types
+  // - **Import Scripts:** One-click importing of generated meshes into Blender
+  // - **Material Setup:** Automatic PBR material node setup
+  // - **Scene Organization:** Proper layer and collection management
 
-### Workflow Benefits
+  // ### Workflow Benefits
 
-This tool **democratized access to cutting-edge AI 3D generation**, allowing artists without technical backgrounds to leverage this technology. Benefits included:
+  // This tool **democratized access to cutting-edge AI 3D generation**, allowing artists without technical backgrounds to leverage this technology. Benefits included:
 
-- **Rapid Prototyping:** Generate base meshes in minutes instead of hours
-- **Creative Exploration:** Quickly test multiple design variations
-- **Accessibility:** No Python or command-line knowledge required
-- **Production Ready:** Output directly compatible with existing pipeline
+  // - **Rapid Prototyping:** Generate base meshes in minutes instead of hours
+  // - **Creative Exploration:** Quickly test multiple design variations
+  // - **Accessibility:** No Python or command-line knowledge required
+  // - **Production Ready:** Output directly compatible with existing pipeline
 
----
+  // ---
 
-## Technical Implementation
+  // ## Technical Implementation
 
-### Python Development
-- **GUI Framework:** Tkinter/PyQt for cross-platform compatibility
-- **API Integration:** RESTful communication with TRELLIS server
-- **File Management:** Automated workspace and asset organization
-- **Configuration:** JSON-based settings for user preferences
+  // ### Python Development
+  // - **GUI Framework:** Tkinter/PyQt for cross-platform compatibility
+  // - **API Integration:** RESTful communication with TRELLIS server
+  // - **File Management:** Automated workspace and asset organization
+  // - **Configuration:** JSON-based settings for user preferences
 
-### Blender Automation
-- **Python API:** Blender bpy module for scene manipulation
-- **Template Resources:** Reusable scene setups and node groups
-- **Import Pipeline:** Automatic GLB parsing and scene integration
-- **Material Library:** Pre-built shader networks for common surfaces
+  // ### Blender Automation
+  // - **Python API:** Blender bpy module for scene manipulation
+  // - **Template Resources:** Reusable scene setups and node groups
+  // - **Import Pipeline:** Automatic GLB parsing and scene integration
+  // - **Material Library:** Pre-built shader networks for common surfaces
 
-### Server Management
-- **Local Deployment:** TRELLIS running on studio workstations
-- **Resource Optimization:** GPU memory management for stable generation
-- **Queue System:** Multiple generation requests handling
-- **Monitoring:** Real-time status updates and error reporting
+  // ### Server Management
+  // - **Local Deployment:** TRELLIS running on studio workstations
+  // - **Resource Optimization:** GPU memory management for stable generation
+  // - **Queue System:** Multiple generation requests handling
+  // - **Monitoring:** Real-time status updates and error reporting
 
----
+  // ---
 
-## Impact & Results
+  // ## Impact & Results
 
-**Production Acceleration:**
-- Base mesh generation time reduced by 80%
-- Enabled rapid iteration on asset designs
-- Reduced dependency on external modeling contractors
+  // **Production Acceleration:**
+  // - Base mesh generation time reduced by 80%
+  // - Enabled rapid iteration on asset designs
+  // - Reduced dependency on external modeling contractors
 
-**Team Empowerment:**
-- Non-technical artists could leverage AI generation
-- Reduced bottlenecks in asset production
-- Increased creative experimentation
+  // **Team Empowerment:**
+  // - Non-technical artists could leverage AI generation
+  // - Reduced bottlenecks in asset production
+  // - Increased creative experimentation
 
-**Technical Achievement:**
-- Successfully integrated research-level AI into production pipeline
-- Created maintainable, user-friendly tools
-- Established framework for future AI tool integration
+  // **Technical Achievement:**
+  // - Successfully integrated research-level AI into production pipeline
+  // - Created maintainable, user-friendly tools
+  // - Established framework for future AI tool integration
 
----
+  // ---
 
-## Skills Demonstrated
+  // ## Skills Demonstrated
 
-- **AI/ML Integration:** Production deployment of research models
-- **Tool Development:** User-centric GUI application design
-- **Pipeline Engineering:** Workflow automation and optimization
-- **Python Programming:** Complex application development
-- **Blender Scripting:** Deep bpy API knowledge
-- **Technical Leadership:** Bridging technical and artistic needs
-`, */
-  },
+  // - **AI/ML Integration:** Production deployment of research models
+  // - **Tool Development:** User-centric GUI application design
+  // - **Pipeline Engineering:** Workflow automation and optimization
+  // - **Python Programming:** Complex application development
+  // - **Blender Scripting:** Deep bpy API knowledge
+  // - **Technical Leadership:** Bridging technical and artistic needs
+  // `, */
+  //   },
   federicosolmi_vr: {
     title: 'VR & AR Experiences - Federico Solmi',
     poster: '/assets/img/federico-solmi/vr-thumb.jpg',
