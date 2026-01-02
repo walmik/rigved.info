@@ -1049,6 +1049,11 @@ All featured in **Times Square, NYC** as part of the NFT.NYC 2021 exhibition.
         type: 'image',
         title: 'GATT Comic - Page 3',
       },
+      {
+        path: '/assets/img/gatt/comic-page4.jpg',
+        type: 'image',
+        title: 'GATT Comic - Page 4',
+      },
     ],
     technicalApproach:
       'Adapted 28-minute animated pilot into 100+ page web comic using hybrid AI + traditional art workflow. Trained custom LoRA (Low Rank Adaptation) on 30+ high-quality stills of protagonist Violet, achieving character consistency across all panels. Developed 5-step process: Photoshop layout, Stable Diffusion generation with custom LoRA, digital painting refinement, hand-drawn details/inking, and lettering. Used SD 1.5 base model with DPM++ 2M Karras sampling, rendering at 768x768 and upscaling to 1536x1536 for print quality.',
