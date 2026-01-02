@@ -1035,22 +1035,22 @@ All featured in **Times Square, NYC** as part of the NFT.NYC 2021 exhibition.
       'I adapted Episode 1 of GATT into a web comic format, using a combination of Stable Diffusion AI and traditional drawing skills to refine the visual aesthetic. To preserve character resemblance across panels, I trained a custom LoRA using high-quality stills of the protagonist, Violet.',
     media: [
       {
-        path: '/assets/img/gatt/comic-page1.jpg',
+        path: '/assets/img/gatt/comic-page1.png',
         type: 'image',
         title: 'GATT Comic - Page 1',
       },
       {
-        path: '/assets/img/gatt/comic-page2.jpg',
+        path: '/assets/img/gatt/comic-page2.png',
         type: 'image',
         title: 'GATT Comic - Page 2',
       },
       {
-        path: '/assets/img/gatt/comic-page3.jpg',
+        path: '/assets/img/gatt/comic-page3.png',
         type: 'image',
         title: 'GATT Comic - Page 3',
       },
       {
-        path: '/assets/img/gatt/comic-page4.jpg',
+        path: '/assets/img/gatt/comic-page4.png',
         type: 'image',
         title: 'GATT Comic - Page 4',
       },
