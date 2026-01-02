@@ -1540,6 +1540,11 @@ This project was my first time working with Alembic files. I used Blender to aut
       'The G.O.A.T. is a creature I designed, modelled and textured for the Blizzard 2021 Student Art Contest.',
     media: [
       {
+        path: '/assets/img/fullsize/goat-wireframe.gif',
+        type: 'image',
+        title: 'G.O.A.T 360° View',
+      },
+      {
         path: '/assets/img/fullsize/goat-front.jpg',
         type: 'image',
         title: 'G.O.A.T Front View',
