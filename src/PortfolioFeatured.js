@@ -19,7 +19,7 @@ export default function PortfolioFeatured({ items }) {
             <div className="featured-content">
               <h3 className="featured-card-title">{item.title}</h3>
               {item.client && <p className="featured-client">{item.client}</p>}
-              <p className="featured-description">{item.shortDescription}</p>
+              <p className="featured-description" dangerouslySetInnerHTML={{ __html: item.shortDescription }} />
               {item.tags && (
                 <div className="featured-tags">
                   {item.tags.slice(0, 3).map((tag, idx) => (

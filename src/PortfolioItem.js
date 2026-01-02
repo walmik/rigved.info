@@ -201,7 +201,7 @@ export default function PortfolioItem() {
         {/* Description section */}
         {item.shortDescription && (
           <div className="item-description">
-            <p className="lead-text">{item.shortDescription}</p>
+            <p className="lead-text" dangerouslySetInnerHTML={{ __html: item.shortDescription }} />
           </div>
         )}
 
